@@ -29,6 +29,10 @@ import { pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
 import { transform } from 'esbuild';
 
+/** Keep UI changes and content-only index rebuilds in the same cache generation. */
+export const pagefindCacheVersion = (ui, entry) =>
+  createHash('sha256').update(ui).update('\0').update(entry).digest('hex').slice(0, 10);
+
 /**
  * Lower range syntax in EVERY parenthesized group of an @media prelude.
  * Exported for the contract tests — importing this module must not touch
@@ -80,9 +84,11 @@ const main = async () => {
     }
   }
 
-  // 2. Per-deploy version query (hash of the lowered UI bundle).
+  // 2. Version both the lowered UI and the index manifest. UI-only hashing
+  // leaves content rebuilds on the same cached entry/worker URLs.
   const ui = await readFile(join(dir, 'pagefind-ui.js'), 'utf8');
-  const v = createHash('sha256').update(ui).digest('hex').slice(0, 10);
+  const entry = await readFile(join(dir, 'pagefind-entry.json'), 'utf8');
+  const v = pagefindCacheVersion(ui, entry);
   /* Only template-literal URL constructions are versioned: in the shipped
      bundles every fetch/import site ends with the filename right before a
      closing backtick, while regex literals (`/^(.*\/)pagefind.js.*$/` — the
