@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-15T05:27:47Z",
+  "status": "COMPLETED",
+  "commit": "ba5bc1362cf12692d9107b210bc827f40ead2142",
+  "implementationCommit": "b70c6ce1728ff8699623f83e2de49cb3e4dbc739",
+  "ci": {
+    "runId": 38686736306,
+    "conclusion": "success",
+    "url": "https://github.com/jjasnek-ops/first-person-boxing-hub/actions/runs/38686736306"
+  },
+  "pages": {
+    "deploymentId": "f0cb32d9-67b3-4adf-8e27-b88e7710228a",
+    "status": "success",
+    "formalMarkerMatchesCommit": true
+  },
+  "indexnow": {
+    "runId": 38686815317,
+    "conclusion": "success",
+    "httpStatus": 202,
+    "urlCount": 21,
+    "acceptedAt": "2026-10-15T05:27:28Z",
+    "url": "https://github.com/jjasnek-ops/first-person-boxing-hub/actions/runs/38686815317"
+  },
+  "dns": {
+    "initialPass": "2026-10-15T05:24:53Z",
+    "confirmationPass": "2026-10-15T05:26:19Z",
+    "checksPerPass": 14,
+    "registryNameserversMatch": true
+  },
+  "limits": [
+    "IndexNow acceptance is not Google indexing",
+    "No global DNS cache-expiry guarantee",
+    "GA4 data is self-test only"
+  ]
+}

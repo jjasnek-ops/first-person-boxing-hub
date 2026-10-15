@@ -14,3 +14,5 @@ Native push association did not initially trigger builds. Added a project-only G
 Formal audit: all 21 sitemap URLs 200 with correct metadata, robots, aliases and 404; www-to-apex and HTTP-to-HTTPS permanent redirects retain paths/query strings. See formal-http-audit.json and formal-redirect-audit.json.
 
 Public DNS acceptance passed 14/14 at 05:24:53Z. SITE_LAUNCHED=true then enabled; final IndexNow run/result is recorded in launch-verification.md. Acceptance by a notification endpoint does not prove search-engine indexing.
+
+Formal release ba5bc1362cf12692d9107b210bc827f40ead2142: CI 38686736306 success, Pages f0cb32d9-67b3-4adf-8e27-b88e7710228a success, formal marker exact. IndexNow 38686815317 success, 21 URLs accepted HTTP 202. Receipt: release-verification.json. Later documentation-only closeout commits retain the same implementation.

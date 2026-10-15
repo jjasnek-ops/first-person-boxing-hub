@@ -25,3 +25,5 @@ Formal host verification work: authorized registrar DNSSEC disable, authoritativ
 ## Formal launch acceptance
 
 The Pagefind content cache bug was fixed with manifest-dependent versioning and one focused regression. Final implementation b70c6ce passed 17 suites/201 tests and CI, deployed exactly; actual production query returned four results with matching cache versions. Formal phone home/beginner/combat 375px had no document overflow; restored default metrics. Recovered formal CDP and captured actual home/guide page_view HTTP 204. At 05:24:53Z the final 14/14 Google/Cloudflare DNS checks and two registry delegations passed; enabled SITE_LAUNCHED=true. Final delivery documents supersede earlier permission/login/pending checkpoints.
+
+Release ba5bc13: CI 38686736306 success; Pages f0cb32d9 success with exact formal marker; IndexNow run 38686815317 accepted 21 URLs HTTP 202 at 05:27:28Z. Second DNS pass at 05:26:19Z remained 14/14. Public receipt saved in release-verification.json. Final closeout only records these observed results.

@@ -19,4 +19,4 @@ Updated: 2026-10-15, Asia/Shanghai. Formal HTTPS deployment is live. Final accep
 
 Final DNS evidence and post-launch notification state are recorded in launch-verification.md. Dated Day 3/7/14/28 maintenance plan is saved; no scheduled automation is claimed.
 
-Final public DNS gate passed at 2026-10-15T05:24:53Z (13:24:53 Asia/Shanghai): 14/14 validating resolver checks, both registry delegations. SITE_LAUNCHED=true enabled after that gate; IndexNow release run is being verified. No global cache-expiry guarantee.
+Final public DNS gate passed at 2026-10-15T05:24:53Z (13:24:53 Asia/Shanghai): 14/14 validating resolver checks, both registry delegations. SITE_LAUNCHED=true enabled after that gate; IndexNow run 38686815317 succeeded: HTTP 202 for 21 URLs. Release ba5bc13 passed CI and deployed as f0cb32d9; formal commit marker matches. No global cache-expiry guarantee.

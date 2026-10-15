@@ -15,8 +15,10 @@ Date: 2026-10-15 Asia/Shanghai. Final acceptance: COMPLETED.
 | GSC | Correct Domain Property verified; sitemap-index.xml Success / Oct 15 last read / initial discovered 0; home and beginner indexing requests accepted. |
 | GA4 | Consent gate; formal home and beginner page_view HTTP 204; correct property Realtime page paths received. Self-tests only. |
 | Code gate | 17 suites / 201 tests, build, lint, types and site checks passed. Latest implementation b70c6ce1728ff8699623f83e2de49cb3e4dbc739, Pages f9dfab8f-cb21-410c-ab4e-31e7e99f0c0f. |
-| IndexNow | SITE_LAUNCHED=true enabled after the DNS gate. Final release notification result is being verified. |
+| IndexNow | SITE_LAUNCHED=true enabled after the DNS gate. Run 38686815317 succeeded: HTTP 202 for all 21 sitemap URLs (05:27:28Z). Receipt is not indexing. |
 
 Specific DNSSEC migration was explicitly authorized. Existing Spaceship signing disabled and registry DS removed; no automatic re-enable. Initial stale validating resolver responses are recorded honestly. No browser warning bypass or DNSSEC validation bypass used.
 
 Indexing, search visibility, organic traffic, revenue, Lighthouse scores and field Core Web Vitals are not claimed. HTTP timing is one client sample. Day 3/7/14/28 review plan is saved, not an unattended scheduled task.
+
+Release verification: ba5bc1362cf12692d9107b210bc827f40ead2142 passed CI 38686736306 and deployed successfully as f0cb32d9-67b3-4adf-8e27-b88e7710228a. Formal deploy marker matches. A second separated DNS pass at 05:26:19Z also passed 14/14. Exact public proof: release-verification.json. Subsequent receipt/report-only commits use this same verified pipeline without changing runtime behavior.

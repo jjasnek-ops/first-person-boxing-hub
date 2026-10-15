@@ -6,7 +6,7 @@
 
 - 正式站：https://firstpersonboxinghub.wiki。
 - GitHub：https://github.com/jjasnek-ops/first-person-boxing-hub，main。
-- 已验收实现提交：b70c6ce1728ff8699623f83e2de49cb3e4dbc739。后续报告提交走同一 CI/Pages 管道，不改变站点实现。
+- 已验收实现提交：b70c6ce1728ff8699623f83e2de49cb3e4dbc739。正式验收发布 ba5bc1362cf12692d9107b210bc827f40ead2142 已通过 CI 38686736306，并部署为 f0cb32d9-67b3-4adf-8e27-b88e7710228a，正式标记一致；后续回执文档提交不改变站点实现。
 - AnvilWiki v2.37.0，基础 cab46ec2beda72cd6d4e8482ad0060bfa8d8815e，MIT；Astro / MDX。
 - Pages：https://first-person-boxing-hub.pages.dev；实现部署 f9dfab8f-cb21-410c-ab4e-31e7e99f0c0f 成功，正式域名部署标记与实现 SHA 相符。
 - main CI 通过后调用本站专用 Pages Hook。GitHub 没有上传 Cloudflare/Spaceship 广域 API 凭据。
@@ -61,8 +61,10 @@ Controls / Gloves 状态 BLOCKED，Training / Updates 为 NOT_STARTED：缺少�
 - GSC：正确 Domain Property 已验证，验证 TXT 保留；sitemap-index.xml 为 Success，Last read Oct 15，当前发现页数 0。首页与新手指南的 Request indexing 均获确认。
 - Google 实际索引：检查时为 not indexed / unknown to Google；请求已受理不等于已收录。未声称展示、点击或自然流量。
 - GA4：独立属性 559103339 / stream 16132040655 / G-P1MXKVMQVT。未同意不加载；同意后正式首页与新手指南 page_view 均 HTTP 204，正确属性 Realtime 收到两条页面路径。拒绝后刷新也不加载。所有数据是自测。
-- IndexNow：DNS 门禁通过后已启用 SITE_LAUNCHED；最终发布通知正在核验，结果另附；不等于 Google 索引。
+- IndexNow：DNS 门禁通过后已启用 SITE_LAUNCHED；发布通知 COMPLETED，工作流 38686815317 成功，21 个 URL 获 HTTP 202；不等于 Google 索引。
 - 广告关闭。Day 3/7/14/28 维护日期为 10 月 18 日、10 月 22 日、10 月 29 日、11 月 12 日（中国时间）；已保存计划，没有声称创建定时任务。
 - 用户待办：本次已授权上线无需新增凭据或权限；后续按维护计划检查真实收录和搜索数据。本次公共 DNS 等待已结束，未遗留需要用户处理的上线阻塞。
 
 当前总表见 current-delivery-status.md；完整验收见 launch-verification.md；运维过程见 domain-api-operations.md；GSC/GA4 见 gsc-ga4-status.md。
+
+第二次间隔 DNS 复核（05:26:19Z）同样 14/14 通过。发布回执见 release-verification.json，未遗留上线工程阻塞。
