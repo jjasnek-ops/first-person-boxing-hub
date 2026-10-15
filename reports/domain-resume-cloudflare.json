@@ -1,0 +1,18 @@
+{
+  "time": "2026-10-15T04:10:56.9008112Z",
+  "zoneStatus": "pending",
+  "nameservers": [
+    "armfazh.ns.cloudflare.com",
+    "laura.ns.cloudflare.com"
+  ],
+  "domains": [
+    {
+      "status": "pending",
+      "name": "firstpersonboxinghub.wiki"
+    },
+    {
+      "status": "pending",
+      "name": "www.firstpersonboxinghub.wiki"
+    }
+  ]
+}

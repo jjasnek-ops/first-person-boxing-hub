@@ -20,3 +20,7 @@ Pages project created independently with GitHub source. Commit 22d42a36ee31fd2e8
 ## GSC TXT preparation (normal DNS write, no DNSSEC mutation)
 
 Requested a new Domain Property for firstpersonboxinghub.wiki in the user's existing GSC session. The exact returned Google TXT value was added to current Spaceship DNS with the documented TXT schema, force=false. Read before write found no custom records; read after write confirmed exactly the intended TXT. The same value was pre-staged in the target Cloudflare Zone. This proves DNS TXT write permission at both providers. No unrelated record was changed. NS write remains unverified and blocked by the known DS mismatch.
+
+## Resumed after user login
+
+Spaceship login restored and actual DNSSEC UI shows Enabled with automatically configured DS. Fresh authoritative DS still exists; CF signing remains disabled. Verified target NS in a draft form and cancelled it. No NS/DS/DNSSEC mutation. Exact migration confirmation requested because the user retained the no-proactive-DNSSEC boundary. See domain-resume-status.md and associated read-only JSON evidence.

@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-15T04:19:27.0124209Z",
+  "targetDnssecStatus": "disabled",
+  "records": [
+    {
+      "name": "firstpersonboxinghub.wiki",
+      "type": "CNAME",
+      "content": "first-person-boxing-hub.pages.dev",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "name": "www.firstpersonboxinghub.wiki",
+      "type": "CNAME",
+      "content": "first-person-boxing-hub.pages.dev",
+      "proxied": true,
+      "ttl": 1
+    },
+    {
+      "name": "firstpersonboxinghub.wiki",
+      "type": "TXT",
+      "content": "google-site-verification=lAghzxhyprRW7TkzlX0ORcbQXiY8VPddrP4Sdo5layU",
+      "proxied": false,
+      "ttl": 300
+    }
+  ],
+  "deployment": {
+    "status": "success",
+    "id": "0d08c817-665b-410c-8222-31e9177a2357",
+    "commit": "1be3b6ff36e5cf201d8f55bafd6d383591ddb15d"
+  }
+}
