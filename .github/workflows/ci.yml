@@ -25,3 +25,10 @@ jobs:
       - uses: ./.github/actions/gates
         with:
           site-url: https://firstpersonboxinghub.wiki
+      - name: Trigger this project's Pages source build after successful main checks
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
+        run: |
+          test -n "$DEPLOY_HOOK_URL"
+          curl --fail --silent --show-error --request POST "$DEPLOY_HOOK_URL" --output /dev/null
