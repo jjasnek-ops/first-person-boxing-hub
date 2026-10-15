@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "value": "google-site-verification=lAghzxhyprRW7TkzlX0ORcbQXiY8VPddrP4Sdo5layU",
+      "name": "@",
+      "type": "TXT",
+      "ttl": 300,
+      "group": {
+        "type": "custom"
+      }
+    }
+  ],
+  "total": 1
+}

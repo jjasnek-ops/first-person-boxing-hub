@@ -13,6 +13,10 @@
 
 Existing public DNS showed registrar parking A addresses, no MX or TXT records in the checked apex responses. The complete provider record inventory must still be read before a migration. No existing record deleted.
 
-After login: inspect exact-domain DNSSEC controls and record inventory; prepare a safe old-DS transition and rollback. If DS removal is used, verify authoritative absence and allow old TTL/cache transition before NS change. Do not disable old signing while validators can still require the old DS without evaluating the resulting outage. Do not use an undocumented endpoint. Never use nameservers from a different Zone.
+User steering received after this audit: skip DNSSEC work for genuinely unsigned newly purchased domains; do not proactively enable, disable or restore DNSSEC. This specific domain already has authoritative DS and a validated chain, so it is not in the unsigned branch. No DNSSEC write is authorized by the new steering. Confirm whether the registrar supports an automatic safe transition; otherwise retain NS and request only the necessary user action. Do not use an undocumented endpoint or blind incompatible switch. Never use nameservers from a different Zone.
 
-Pages project created independently with GitHub source; source commit must still be pushed and deployed. Domain binding and HTTPS are not yet complete.
+Pages project created independently with GitHub source. Commit 22d42a36ee31fd2e89294a1c3bcc206096f35da8 was pushed; first production deployment eba4586a-8989-49e5-87b2-00029118e497 succeeded. Domain binding and HTTPS on the formal host are not yet complete.
+
+## GSC TXT preparation (normal DNS write, no DNSSEC mutation)
+
+Requested a new Domain Property for firstpersonboxinghub.wiki in the user's existing GSC session. The exact returned Google TXT value was added to current Spaceship DNS with the documented TXT schema, force=false. Read before write found no custom records; read after write confirmed exactly the intended TXT. The same value was pre-staged in the target Cloudflare Zone. This proves DNS TXT write permission at both providers. No unrelated record was changed. NS write remains unverified and blocked by the known DS mismatch.

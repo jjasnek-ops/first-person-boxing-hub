@@ -1,0 +1,34 @@
+[
+  {
+    "id": "b3481ed1-079d-4fc1-94dd-ecfbeb63379c",
+    "domain_id": "b3481ed1-079d-4fc1-94dd-ecfbeb63379c",
+    "name": "firstpersonboxinghub.wiki",
+    "status": "pending",
+    "verification_data": {
+      "status": "pending",
+      "error_message": "CNAME record not set"
+    },
+    "validation_data": {
+      "status": "pending",
+      "method": "http"
+    },
+    "certificate_authority": "google",
+    "created_on": "2026-10-15T02:31:47.457664Z"
+  },
+  {
+    "id": "2405987f-7711-4932-82a6-9e7f32012657",
+    "domain_id": "2405987f-7711-4932-82a6-9e7f32012657",
+    "name": "www.firstpersonboxinghub.wiki",
+    "status": "pending",
+    "verification_data": {
+      "status": "pending",
+      "error_message": "CNAME record not set"
+    },
+    "validation_data": {
+      "status": "pending",
+      "method": "http"
+    },
+    "certificate_authority": "google",
+    "created_on": "2026-10-15T02:31:49.588712Z"
+  }
+]

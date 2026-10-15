@@ -50,6 +50,9 @@ seo-reports/
 reports/*.log
 # Source HTML is retained locally for research, not republished in this public repository.
 research/raw/*.html
+reports/*-doc.html
+research/serp-*-observation.txt
+reports/screenshots/gsc-verified.png
 
 # local tool output (review reports etc.)
 out/

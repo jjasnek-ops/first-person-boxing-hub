@@ -1,0 +1,457 @@
+{
+  "checked_at": "2026-10-15T02:25:07.852694+00:00",
+  "host": "https://first-person-boxing-hub.pages.dev",
+  "index": {
+    "url": "https://first-person-boxing-hub.pages.dev/sitemap-index.xml",
+    "status": 200,
+    "final_url": "https://first-person-boxing-hub.pages.dev/sitemap-index.xml",
+    "content_type": "application/xml",
+    "request_seconds": 1.308
+  },
+  "sitemap_url_count": 21,
+  "pages": [
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.437,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/",
+        "description": "Learn First Person Boxing on Roblox with source-checked beginner and combat guides, mobile support notes and honest code-status checks.",
+        "title": "First Person Boxing Wiki & Beginner Guides | FPB Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/about/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/about/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.637,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/about/",
+        "description": "About for First Person Boxing Hub.",
+        "title": "About \u2014 First Person Boxing Hub",
+        "jsonld": 1,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/contact/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/contact/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 0.835,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/contact/",
+        "description": "Contact for First Person Boxing Hub.",
+        "title": "Contact \u2014 First Person Boxing Hub",
+        "jsonld": 1,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/copyright/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/copyright/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.052,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/copyright/",
+        "description": "Copyright for First Person Boxing Hub.",
+        "title": "Copyright \u2014 First Person Boxing Hub",
+        "jsonld": 1,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/faq/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/faq/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.027,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/faq/",
+        "description": "Quick answers from the official Roblox listing, checked 15 October 2026.",
+        "title": "First Person Boxing FAQ",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/guides/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.054,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/guides/",
+        "description": "Start with the beginner guide, understand the official combat mechanics, check mobile support and verify code claims for the Roblox game by Can You Box?.",
+        "title": "First Person Boxing Guides",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/guides/beginner-guide/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/beginner-guide/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.32,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/guides/beginner-guide/",
+        "description": "Start First Person Boxing with an AI practice plan for guards, slips, counters and stamina, based on the official Roblox game description.",
+        "title": "First Person Boxing Beginner Guide: Your First Practice Session",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/guides/codes/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/codes/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.005,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/guides/codes/",
+        "description": "No First Person Boxing code has been verified by this site. See the 15 October 2026 check, source scope and how to distinguish unrelated code lists.",
+        "title": "First Person Boxing Codes: Verification Status & Official Sources",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/guides/combat/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/combat/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.051,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/guides/combat/",
+        "description": "Understand the officially described guards, slips, counters and stamina in First Person Boxing, with practical drills and clear evidence limits.",
+        "title": "First Person Boxing Combat: Guards, Slips, Counters & Stamina",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/guides/mobile/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/mobile/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.085,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/guides/mobile/",
+        "description": "The developer lists mobile support for First Person Boxing. Find the correct Roblox game, check device access and troubleshoot your setup safely.",
+        "title": "First Person Boxing Mobile: Android, iPhone & Setup Checks",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/privacy-policy/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/privacy-policy/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 0.883,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/privacy-policy/",
+        "description": "Privacy Policy for First Person Boxing Hub.",
+        "title": "Privacy Policy \u2014 First Person Boxing Hub",
+        "jsonld": 1,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/recent/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/recent/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.432,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/recent/",
+        "description": "The latest articles and updates across the wiki, newest first.",
+        "title": "Recent Updates \u2014 First Person Boxing Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/tags/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/tags/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.038,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/tags/",
+        "description": "Browse all articles by topic.",
+        "title": "All Tags \u2014 First Person Boxing Hub",
+        "jsonld": 2,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/tags/beginner/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/tags/beginner/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.71,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/tags/beginner/",
+        "description": "beginner \u2014 All Tags \u00b7 Unofficial First Person Boxing Wiki, Controls & Beginner Guides",
+        "title": "beginner \u2014 First Person Boxing Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/tags/codes/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/tags/codes/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.018,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/tags/codes/",
+        "description": "codes \u2014 All Tags \u00b7 Unofficial First Person Boxing Wiki, Controls & Beginner Guides",
+        "title": "codes \u2014 First Person Boxing Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/tags/combat/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/tags/combat/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.009,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/tags/combat/",
+        "description": "combat \u2014 All Tags \u00b7 Unofficial First Person Boxing Wiki, Controls & Beginner Guides",
+        "title": "combat \u2014 First Person Boxing Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/tags/mobile/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/tags/mobile/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.011,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/tags/mobile/",
+        "description": "mobile \u2014 All Tags \u00b7 Unofficial First Person Boxing Wiki, Controls & Beginner Guides",
+        "title": "mobile \u2014 First Person Boxing Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/tags/practice/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/tags/practice/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.003,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/tags/practice/",
+        "description": "practice \u2014 All Tags \u00b7 Unofficial First Person Boxing Wiki, Controls & Beginner Guides",
+        "title": "practice \u2014 First Person Boxing Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/tags/setup/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/tags/setup/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 2.388,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/tags/setup/",
+        "description": "setup \u2014 All Tags \u00b7 Unofficial First Person Boxing Wiki, Controls & Beginner Guides",
+        "title": "setup \u2014 First Person Boxing Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/tags/verification/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/tags/verification/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.641,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/tags/verification/",
+        "description": "verification \u2014 All Tags \u00b7 Unofficial First Person Boxing Wiki, Controls & Beginner Guides",
+        "title": "verification \u2014 First Person Boxing Hub",
+        "jsonld": 3,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/terms-of-service/",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/terms-of-service/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.035,
+      "meta": {
+        "h1": 1,
+        "canonical": "https://firstpersonboxinghub.wiki/terms-of-service/",
+        "description": "Terms of Service for First Person Boxing Hub.",
+        "title": "Terms of Service \u2014 First Person Boxing Hub",
+        "jsonld": 1,
+        "robots": "max-image-preview:large"
+      },
+      "canonical_matches": true,
+      "demo_residue": false
+    }
+  ],
+  "extra": [
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/robots.txt",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/robots.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "request_seconds": 0.853,
+      "sample": "User-agent: *\nAllow: /\n\nSitemap: https://firstpersonboxinghub.wiki/sitemap-index.xml"
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/sitemap.xml",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/sitemap-index.xml",
+      "content_type": "application/xml",
+      "request_seconds": 1.838,
+      "sample": null
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/codes",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/codes/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 2.016,
+      "sample": null
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/mobile",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/mobile/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.943,
+      "sample": null
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/combat",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/combat/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 1.761,
+      "sample": null
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/beginner-guide",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/guides/beginner-guide/",
+      "content_type": "text/html; charset=utf-8",
+      "request_seconds": 2.354,
+      "sample": null
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/does-not-exist-launch-check/",
+      "status": 404,
+      "final_url": "https://first-person-boxing-hub.pages.dev/does-not-exist-launch-check/",
+      "request_seconds": 1.355,
+      "sample": null
+    },
+    {
+      "url": "https://first-person-boxing-hub.pages.dev/.well-known/anvilwiki-deploy.txt",
+      "status": 200,
+      "final_url": "https://first-person-boxing-hub.pages.dev/.well-known/anvilwiki-deploy.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "request_seconds": 0.835,
+      "sample": "22d42a36ee31fd2e89294a1c3bcc206096f35da8"
+    }
+  ],
+  "formal_domain": [
+    {
+      "url": "https://firstpersonboxinghub.wiki/",
+      "error": "URLError",
+      "title": "",
+      "is_this_site": false
+    },
+    {
+      "url": "https://firstpersonboxinghub.wiki/robots.txt",
+      "error": "URLError",
+      "title": "",
+      "is_this_site": false
+    },
+    {
+      "url": "https://firstpersonboxinghub.wiki/sitemap.xml",
+      "error": "URLError",
+      "title": "",
+      "is_this_site": false
+    }
+  ],
+  "timing_scope": "single-host HTTP requests, not Lighthouse or field Web Vitals"
+}
