@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-10-15T02:25:07.852694+00:00",
+  "checked_at": "2026-10-15T03:10:51.307010+00:00",
   "host": "https://first-person-boxing-hub.pages.dev",
   "index": {
     "url": "https://first-person-boxing-hub.pages.dev/sitemap-index.xml",
     "status": 200,
     "final_url": "https://first-person-boxing-hub.pages.dev/sitemap-index.xml",
     "content_type": "application/xml",
-    "request_seconds": 1.308
+    "request_seconds": 0.733
   },
   "sitemap_url_count": 21,
   "pages": [
@@ -15,7 +15,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.437,
+      "request_seconds": 1.56,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/",
@@ -32,7 +32,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/about/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.637,
+      "request_seconds": 1.029,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/about/",
@@ -49,7 +49,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/contact/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.835,
+      "request_seconds": 0.996,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/contact/",
@@ -66,7 +66,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/copyright/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.052,
+      "request_seconds": 2.622,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/copyright/",
@@ -83,7 +83,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/faq/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.027,
+      "request_seconds": 3.08,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/faq/",
@@ -100,7 +100,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.054,
+      "request_seconds": 1.163,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/guides/",
@@ -117,7 +117,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/beginner-guide/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.32,
+      "request_seconds": 1.098,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/guides/beginner-guide/",
@@ -134,7 +134,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/codes/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.005,
+      "request_seconds": 1.16,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/guides/codes/",
@@ -151,7 +151,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/combat/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.051,
+      "request_seconds": 1.201,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/guides/combat/",
@@ -168,7 +168,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/mobile/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.085,
+      "request_seconds": 1.055,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/guides/mobile/",
@@ -185,7 +185,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/privacy-policy/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.883,
+      "request_seconds": 1.804,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/privacy-policy/",
@@ -202,7 +202,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/recent/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.432,
+      "request_seconds": 1.684,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/recent/",
@@ -219,7 +219,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/tags/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.038,
+      "request_seconds": 1.373,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/",
@@ -236,7 +236,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/tags/beginner/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.71,
+      "request_seconds": 1.209,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/beginner/",
@@ -253,7 +253,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/tags/codes/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.018,
+      "request_seconds": 1.406,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/codes/",
@@ -270,7 +270,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/tags/combat/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.009,
+      "request_seconds": 1.017,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/combat/",
@@ -287,7 +287,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/tags/mobile/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.011,
+      "request_seconds": 1.487,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/mobile/",
@@ -304,7 +304,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/tags/practice/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.003,
+      "request_seconds": 1.069,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/practice/",
@@ -321,7 +321,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/tags/setup/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 2.388,
+      "request_seconds": 1.724,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/setup/",
@@ -338,7 +338,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/tags/verification/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.641,
+      "request_seconds": 1.032,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/verification/",
@@ -355,7 +355,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/terms-of-service/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.035,
+      "request_seconds": 0.968,
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/terms-of-service/",
@@ -374,7 +374,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/robots.txt",
       "content_type": "text/plain; charset=utf-8",
-      "request_seconds": 0.853,
+      "request_seconds": 0.902,
       "sample": "User-agent: *\nAllow: /\n\nSitemap: https://firstpersonboxinghub.wiki/sitemap-index.xml"
     },
     {
@@ -382,7 +382,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/sitemap-index.xml",
       "content_type": "application/xml",
-      "request_seconds": 1.838,
+      "request_seconds": 1.61,
       "sample": null
     },
     {
@@ -390,7 +390,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/codes/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 2.016,
+      "request_seconds": 2.047,
       "sample": null
     },
     {
@@ -398,7 +398,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/mobile/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.943,
+      "request_seconds": 1.838,
       "sample": null
     },
     {
@@ -406,7 +406,7 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/combat/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.761,
+      "request_seconds": 1.643,
       "sample": null
     },
     {
@@ -414,14 +414,14 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/guides/beginner-guide/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 2.354,
+      "request_seconds": 1.65,
       "sample": null
     },
     {
       "url": "https://first-person-boxing-hub.pages.dev/does-not-exist-launch-check/",
       "status": 404,
       "final_url": "https://first-person-boxing-hub.pages.dev/does-not-exist-launch-check/",
-      "request_seconds": 1.355,
+      "request_seconds": 1.392,
       "sample": null
     },
     {
@@ -429,8 +429,8 @@
       "status": 200,
       "final_url": "https://first-person-boxing-hub.pages.dev/.well-known/anvilwiki-deploy.txt",
       "content_type": "text/plain; charset=utf-8",
-      "request_seconds": 0.835,
-      "sample": "22d42a36ee31fd2e89294a1c3bcc206096f35da8"
+      "request_seconds": 0.862,
+      "sample": "27ffe9ad2bc80c569fae93cd1b72de855bbf6bba"
     }
   ],
   "formal_domain": [

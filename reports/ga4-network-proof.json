@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-15T03:08:42.623Z",
+  "source": "actual Pages browser self-test after Accept; only non-identifying fields retained",
+  "events": [
+    {
+      "method": "Network.responseReceived",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": null,
+      "documentUrl": null,
+      "status": 200
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": "page_view",
+      "documentUrl": "https://first-person-boxing-hub.pages.dev/guides/combat/"
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": "page_view",
+      "documentUrl": "https://first-person-boxing-hub.pages.dev/guides/combat/",
+      "status": 204
+    }
+  ]
+}

@@ -2,14 +2,22 @@
 
 ## Search Console
 
-Status: COMPLETED for domain ownership verification. Property: sc-domain:firstpersonboxinghub.wiki in the user's existing Google account. Confirmed it was absent from the visible property list, then added the website Domain Property. Added the exact returned verification TXT through the documented registrar API and pre-staged it in Cloudflare. Public Google DNS returns the TXT with AD=true. GSC Verify returned Ownership verified; the new property shows firstpersonboxinghub.wiki and Processing data.
+Status: COMPLETED for Domain Property ownership verification, sc-domain:firstpersonboxinghub.wiki. Confirmed absent in the visible property list, created it, and added the exact TXT through documented registrar DNS API plus the target CF Zone. Public Google DNS returns TXT with AD=true. GSC displayed Ownership verified and Processing data. Preserve the TXT. Screenshot retained locally, excluded from the public repository due account chrome.
 
-The verification screenshot is retained locally at screenshots/gsc-verified.png and excluded from the public repository because it includes account chrome. Do not remove the verification TXT during migration.
-
-Sitemap submission: BLOCKED until the formal hostname serves the real XML over HTTPS. URL Inspection / discovery / indexing / impressions / clicks: NOT_STARTED or unverified. No data from another property is reused. Verification is not indexing.
+Sitemap submission: BLOCKED until the formal host serves XML over HTTPS. URL Inspection/discovery/indexing/impressions/clicks: NOT_STARTED or unverified. No other property's metrics reused. Verification is not indexing.
 
 ## GA4
 
-Status: BLOCKED. Opened analytics.google.com; it stayed on Loading. One reload did not recover it. No permission error or account state could be established; this is a UI-loading blocker, not a claimed lack of permission. No measurement ID created or borrowed. PUBLIC_GA_ID remains empty; analytics is not installed. Realtime pageview, landing pages and organic sessions are not verified.
+Property creation: COMPLETED. Existing account, new property First Person Boxing Hub, property ID 559103339. Timezone China Time (GMT+08:00), USD; Games, small site, understand traffic objective. No existing project property modified. Website stream https://firstpersonboxinghub.wiki, stream ID 16132040655, Measurement ID G-P1MXKVMQVT. Creation was visibly confirmed, without a new terms acceptance.
 
-Advertising remains disabled. Privacy copy reflects the absence of tracking.
+Instrumentation deployed through wrangler.toml and the inherited consent-gated loader; privacy and banner copy updated. Local build explicitly used PUBLIC_GA_ID because local Astro does not read Wrangler vars. Consent regression suite: 4 assertions passed. CF source build reads Wrangler vars; actual remote HTML and browser confirm the project ID exists, banner appears, and no gtag script is loaded before consent. Clicking Accept removes the banner and loads the exact project's gtag.js. Browser network pageview and GA received-data verification are recorded below after the test.
+
+An earlier DOM snapshot misleadingly showed Loading while the actual UI had loaded; that diagnostic is superseded. The temporary Google tag iframe also resisted pointer actions; Escape recovered it. No UI-loading blocker remains.
+
+Advertising remains disabled. The local GA screenshot is excluded from the public repository. Ordinary reporting, organic sessions and indexing remain unestablished; a self-test must not be represented as organic traffic.
+
+Decline branch also passed on the actual immutable deployment: after Decline and reload, the banner stays dismissed and no gtag script is loaded.
+
+## Browser receipt proof
+
+Status: COMPLETED for Pages instrumentation and received self-test. Before consent: banner visible, no gtag script. Accept loads gtag.js for G-P1MXKVMQVT (HTTP 200). The actual browser sent en=page_view for /guides/combat/ to Google Analytics /g/collect with the same measurement ID and received HTTP 204. Sanitized evidence: ga4-network-proof.json (no client ID, cookies or headers retained). The correct property's Realtime overview displayed page_view=1 and session_start=1. Browser warning/error log was empty. Local screenshot: screenshots/ga4-realtime.png. Formal-host self-test remains BLOCKED until DNS/TLS launch; this Pages self-test is not an organic session or evidence of Google indexing.

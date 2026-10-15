@@ -2,7 +2,10 @@
 
 | Item | Status | Evidence / next action |
 | --- | --- | --- |
-| Similarweb UI | BLOCKED | Initial navigation timed out; recovery being tested. No invented metrics. |
-| Exact combat keybinds / touch layout | BLOCKED | Official description does not specify bindings. Require official documentation or identifiable gameplay evidence. |
-| Google Search Console / GA4 | NOT_STARTED | Probe actual available session; do not reuse another project's identity. |
-| Registrar DS safety gate | NOT_STARTED | Query .wiki authoritative DNS before writing nameservers. |
+| Formal-domain activation | BLOCKED | Existing DS confirmed by two authoritative .wiki servers. Current chain validates; target CF has no matching chain. User prohibits proactive DNSSEC mutation. NS retained, Zone pending. Requires compatible registrar transition or user action. |
+| Registrar browser | BLOCKED | Spaceship session expired; login handoff requested. No password requested/entered. Public API has no documented DS operation. |
+| GSC sitemap/indexing | BLOCKED | Ownership verified. Formal host does not yet serve this website/sitemap. Verification is not indexing. |
+| Similarweb US data | BLOCKED | Country selection is plan-restricted. Worldwide observations saved separately, not relabeled as US demand. |
+| Exact inputs/mechanics | BLOCKED | No verified current-game keys, touch layout, glove stats, redeem interface or update log. Candidate pages withheld. |
+
+Initial dependency, Similarweb navigation and Pages trigger issues recovered. They are not current blockers. Analytics status is in gsc-ga4-status.md.

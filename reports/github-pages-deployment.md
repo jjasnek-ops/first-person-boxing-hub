@@ -13,6 +13,8 @@ Status: COMPLETED for repository and Pages deployment; BLOCKED for formal-domain
 - URL: https://first-person-boxing-hub.pages.dev
 - Immutable deployment URL: https://eba4586a.first-person-boxing-hub.pages.dev
 
-The first push did not immediately produce a Pages deployment, so a documented API deployment request triggered the Git-connected build. This was a source build, not an untracked local upload. Future push-trigger behavior must be confirmed on the follow-up report commit.
+Native push events did not start builds for the first two commits. Added the project-only github-ci-main hook following Cloudflare's documented Pages workflow. GitHub stores only its URL in CLOUDFLARE_PAGES_DEPLOY_HOOK; no account token or registrar credential was uploaded. CI calls it after all main push gates pass. Commit f7bf7164448e3c9836ba8ec152078095d0a5f9ea passed CI run 38672795922, including the trigger. Pages deployment 3a8780ee-9e96-45d6-8e12-6d4025466198 reports source deploy_hook, that exact commit and successful stages. CI-to-Pages deployment is verified.
 
 Remote HTTP audit verifies 21 sitemap URLs, metadata, robots, aliases, 404 and deployed commit marker. See live-http-audit.json. Pages TLS works; formal-domain DNS/HTTPS remains separate and blocked.
+
+GA4 commit cf15c0ba88695dde4e1d9937f43d02ab59494197 deployed successfully as 6d04b1c7. Final implementation commit 27ffe9ad2bc80c569fae93cd1b72de855bbf6bba (accessible menu label) passed CI 38674616701 and deployed successfully as 40f8e61e-8f7a-4f56-930a-8d0301b5f381. Final audit matches that marker. Subsequent report-only commits use the same verified pipeline.
