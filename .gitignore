@@ -56,6 +56,11 @@ reports/screenshots/gsc-verified.png
 reports/screenshots/ga4-created.png
 reports/screenshots/ga4-realtime.png
 reports/screenshots/spaceship-dnssec-resume.png
+reports/screenshots/spaceship-dnssec-disabled.png
+reports/screenshots/gsc-sitemap-submitted.png
+reports/screenshots/gsc-home-index-requested.png
+reports/screenshots/gsc-core-inspection.png
+reports/screenshots/ga4-formal-realtime-pages.png
 
 # local tool output (review reports etc.)
 out/

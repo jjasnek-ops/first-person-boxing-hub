@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-15T04:37:53.483650+00:00",
+  "checks": [
+    {
+      "url": "https://www.firstpersonboxinghub.wiki/",
+      "expected_location": "https://firstpersonboxinghub.wiki/",
+      "status": 301,
+      "location": "https://firstpersonboxinghub.wiki/",
+      "passed": true
+    },
+    {
+      "url": "https://www.firstpersonboxinghub.wiki/guides/combat/?ref=launch-check",
+      "expected_location": "https://firstpersonboxinghub.wiki/guides/combat/?ref=launch-check",
+      "status": 301,
+      "location": "https://firstpersonboxinghub.wiki/guides/combat/?ref=launch-check",
+      "passed": true
+    },
+    {
+      "url": "http://www.firstpersonboxinghub.wiki/guides/combat/?ref=launch-check",
+      "expected_location": "https://firstpersonboxinghub.wiki/guides/combat/?ref=launch-check",
+      "status": 301,
+      "location": "https://firstpersonboxinghub.wiki/guides/combat/?ref=launch-check",
+      "passed": true
+    },
+    {
+      "url": "http://firstpersonboxinghub.wiki/",
+      "expected_location": "https://firstpersonboxinghub.wiki/",
+      "status": 301,
+      "location": "https://firstpersonboxinghub.wiki/",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

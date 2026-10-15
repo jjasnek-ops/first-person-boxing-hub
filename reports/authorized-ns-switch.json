@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-15T04:28:17.5087641Z",
+  "domain": "firstpersonboxinghub.wiki",
+  "before": {
+    "provider": "basic",
+    "hosts": [
+      "launch2.spaceship.net",
+      "launch1.spaceship.net"
+    ]
+  },
+  "after": {
+    "provider": "custom",
+    "hosts": [
+      "armfazh.ns.cloudflare.com",
+      "laura.ns.cloudflare.com"
+    ]
+  },
+  "registryDsWithdrawalVerified": true,
+  "oldRecursiveCachePending": true,
+  "scope": "Explicitly authorized exact-domain migration; no existing website or mail service; formal acceptance waits for resolver validation"
+}

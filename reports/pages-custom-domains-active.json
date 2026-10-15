@@ -1,0 +1,24 @@
+[
+  {
+    "name": "firstpersonboxinghub.wiki",
+    "status": "active",
+    "validation_data": {
+      "status": "active",
+      "method": "http"
+    },
+    "verification_data": {
+      "status": "active"
+    }
+  },
+  {
+    "name": "www.firstpersonboxinghub.wiki",
+    "status": "active",
+    "validation_data": {
+      "status": "active",
+      "method": "http"
+    },
+    "verification_data": {
+      "status": "active"
+    }
+  }
+]

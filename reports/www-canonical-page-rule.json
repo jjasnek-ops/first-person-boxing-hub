@@ -1,0 +1,23 @@
+{
+  "id": "8d1e67e4e5435f2d5d361a0824a50c95",
+  "status": "active",
+  "priority": 1,
+  "targets": [
+    {
+      "target": "url",
+      "constraint": {
+        "operator": "matches",
+        "value": "www.firstpersonboxinghub.wiki/*"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "forwarding_url",
+      "value": {
+        "url": "https://firstpersonboxinghub.wiki/$1",
+        "status_code": 301
+      }
+    }
+  ]
+}

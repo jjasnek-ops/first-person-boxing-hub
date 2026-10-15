@@ -18,3 +18,7 @@ Prepared the actual custom NS form with armfazh.ns.cloudflare.com and laura.ns.c
 Action-time confirmation requested: authorize disabling only this domain's existing Spaceship DNSSEC and withdrawing the corresponding old DS, verify authoritative removal and cached-chain safety, then perform the already-authorized NS migration. It would temporarily remove DNSSEC validation. Do not automatically enable it again. No response/elapsed time is approval.
 
 Local review screenshot: screenshots/spaceship-dnssec-resume.png, excluded from the public repository. Resume with the user's answer; all host HTTPS/GSC sitemap/GA4 formal-host checks remain dependent on safe activation.
+
+## Authorization received
+
+User answer: authorize this specific processing and continue launch. Spaceship DNSSEC disabled through the exact domain UI and visibly verified. Old DS withdrawal is still pending on authoritative servers in the first two checks. Current blocker is propagation, not missing permission. No NS write yet. Continue without another approval for this same authorized scope; do not automatically enable DNSSEC.

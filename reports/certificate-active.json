@@ -1,0 +1,19 @@
+{
+  "hosts": [
+    "firstpersonboxinghub.wiki",
+    "*.firstpersonboxinghub.wiki"
+  ],
+  "certificates": [
+    {
+      "status": "active",
+      "issuer": "LetsEncrypt",
+      "expires_on": "2027-01-13T03:35:56Z",
+      "hosts": [
+        "firstpersonboxinghub.wiki",
+        "*.firstpersonboxinghub.wiki"
+      ]
+    }
+  ],
+  "id": "de3cd405-b190-4a06-9498-5485648c12c0",
+  "status": "active"
+}

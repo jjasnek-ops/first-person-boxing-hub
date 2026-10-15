@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-10-15T04:24:34.389601+00:00",
+  "domain": "firstpersonboxinghub.wiki",
+  "authority": [
+    {
+      "server": "37.209.192.10",
+      "aa": true,
+      "rcode": 0,
+      "ds_present": true,
+      "answer": [
+        "firstpersonboxinghub.wiki. 3600 IN DS 63051 13 2 b59b0a89bbaa94417c436484408df8c27ca0145a37f03a7ef2819097bad69e25",
+        "firstpersonboxinghub.wiki. 3600 IN RRSIG DS 8 2 3600 20261028204324 20261015003329 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRp HV0uril0Y+9AmFKLP3I6RZ3LT8znAnLp NfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7 u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1U qpXNk6GO7h43u+PqgqXk/GxwW/GigpsF 0p7OFlT1SamEo9PTyfREemYe/F7V7BQF oiE6uSE6TlG0uOfb2udjdw==\nfirstpersonboxinghub.wiki. 3600 IN RRSIG DS 13 2 3600 20261028204324 20261015003329 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQy urcUQFRLJmR/HqyhK5tpVdgaROtEz7zH T99G5NYjucn0q0p/p2nfwQ=="
+      ],
+      "authority": []
+    },
+    {
+      "server": "156.154.174.82",
+      "aa": true,
+      "rcode": 0,
+      "ds_present": true,
+      "answer": [
+        "firstpersonboxinghub.wiki. 3600 IN DS 63051 13 2 b59b0a89bbaa94417c436484408df8c27ca0145a37f03a7ef2819097bad69e25",
+        "firstpersonboxinghub.wiki. 3600 IN RRSIG DS 8 2 3600 20261028204324 20261015003329 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRp HV0uril0Y+9AmFKLP3I6RZ3LT8znAnLp NfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7 u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1U qpXNk6GO7h43u+PqgqXk/GxwW/GigpsF 0p7OFlT1SamEo9PTyfREemYe/F7V7BQF oiE6uSE6TlG0uOfb2udjdw==\nfirstpersonboxinghub.wiki. 3600 IN RRSIG DS 13 2 3600 20261028204324 20261015003329 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQy urcUQFRLJmR/HqyhK5tpVdgaROtEz7zH T99G5NYjucn0q0p/p2nfwQ=="
+      ],
+      "authority": [
+        "wiki. 172800 IN NS a.nic.wiki.\nwiki. 172800 IN NS b.nic.wiki.\nwiki. 172800 IN NS c.nic.wiki.\nwiki. 172800 IN NS x.nic.wiki.\nwiki. 172800 IN NS y.nic.wiki.\nwiki. 172800 IN NS z.nic.wiki.",
+        "wiki. 172800 IN RRSIG NS 8 1 172800 20261029020339 20261015013948 57159 wiki. IG659t7tcdVaS9TQokPIFtIYis/5xHRx EQ0FplQTNne7yKUhR96PTeUvP1so3HQJ W04aB4kQyeljF21cRIlDUjkDfURSNggH PKHPmgp3mSH/YT3XORUB08WD+w/rHMtW J9RaK7MzLLqSV58k8/XaKypgrhmowYlb qnklj6zeEGZeoRDJDfqg28U9ZvV6ZG0z JffY1gVP225uZy1CoBL/2A==\nwiki. 172800 IN RRSIG NS 13 1 172800 20261029020339 20261015013948 56120 wiki. d3XbvxGoDh0JLUwLGsVmVe7PqdD7jvQ5 3z5QgbxaDwUIt4Nf5QrCIIP56nPkn8bx YNpyn5O/aHPb6A3XvQvU4Q=="
+      ]
+    }
+  ],
+  "recursive": [
+    {
+      "provider": "Google",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 43
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 43,
+            "TTL": 3600,
+            "data": "63051 13 2 B59B0A89BBAA94417C436484408DF8C27CA0145A37F03A7EF2819097BAD69E25"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 3600,
+            "data": "ds 13 2 3600 1793220204 1792024409 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQyurcUQFRLJmR/HqyhK5tpVdgaROtEz7zHT99G5NYjucn0q0p/p2nfwQ=="
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 3600,
+            "data": "ds 8 2 3600 1793220204 1792024409 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRpHV0uril0Y+9AmFKLP3I6RZ3LT8znAnLpNfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1UqpXNk6GO7h43u+PqgqXk/GxwW/GigpsF0p7OFlT1SamEo9PTyfREemYe/F7V7BQFoiE6uSE6TlG0uOfb2udjdw=="
+          }
+        ],
+        "Comment": "Response from 2610:a1:1075::1:82."
+      },
+      "ds_present": true,
+      "remaining_ds_ttl": 3600
+    },
+    {
+      "provider": "Cloudflare",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 43
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 43,
+            "TTL": 3600,
+            "data": "63051 13 2 b59b0a89bbaa94417c436484408df8c27ca0145a37f03a7ef2819097bad69e25"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 46,
+            "TTL": 3600,
+            "data": "DS 8 2 3600 1793220204 1792024409 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRpHV0uril0Y+9AmFKLP3I6RZ3LT8znAnLpNfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1UqpXNk6GO7h43u+PqgqXk/GxwW/GigpsF0p7OFlT1SamEo9PTyfREemYe/F7V7BQFoiE6uSE6TlG0uOfb2udjdw=="
+          },
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 46,
+            "TTL": 3600,
+            "data": "DS 13 2 3600 1793220204 1792024409 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQyurcUQFRLJmR/HqyhK5tpVdgaROtEz7zHT99G5NYjucn0q0p/p2nfwQ=="
+          }
+        ]
+      },
+      "ds_present": true,
+      "remaining_ds_ttl": 3600
+    }
+  ],
+  "authoritative_withdrawal_verified": false,
+  "observed_recursive_caches_clear": false
+}

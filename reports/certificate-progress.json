@@ -1,0 +1,10 @@
+{
+  "status": "pending_validation",
+  "id": "de3cd405-b190-4a06-9498-5485648c12c0",
+  "certificates": [],
+  "authority": "lets_encrypt",
+  "hosts": [
+    "firstpersonboxinghub.wiki",
+    "*.firstpersonboxinghub.wiki"
+  ]
+}

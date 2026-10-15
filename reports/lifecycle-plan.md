@@ -12,3 +12,7 @@ Start milestones from the first verified formal-domain launch, not the Pages dep
 Never substitute another site's analytics. If demand, activity and organic traction deteriorate, stop low-return expansion while maintaining availability. Do not rebuild in response to short-term low traffic. Ads remain off until eligible and authorized.
 
 Scheduling awaits an actual formal launch date; no unattended job is claimed to exist.
+
+## Day 0 (preliminary): 15 October 2026
+
+Formal host HTTPS, all 21 sitemap pages, redirects, GSC sitemap Success and GA4 formal-path receipt passed on 15 October. Final public DNS consistency check remains open because some resolver pools still retain the removed DS. Once that gate passes, milestone dates in Asia/Shanghai are Day 3: 18 October; Day 7: 22 October; Day 14: 29 October; Day 28: 12 November. These are a saved review plan, not an unattended automation.

@@ -1,0 +1,154 @@
+{
+  "checked_at": "2026-10-15T04:26:46.543087+00:00",
+  "domain": "firstpersonboxinghub.wiki",
+  "authority": [
+    {
+      "server": "37.209.192.10",
+      "aa": true,
+      "rcode": 0,
+      "ds_present": false,
+      "answer": [],
+      "authority": [
+        "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki. 900 IN NSEC3 1 1 0 - 740mkubt2cdvtpstjt931f1en5hveokq NS SOA TXT RRSIG DNSKEY NSEC3PARAM TYPE65534",
+        "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki. 900 IN RRSIG NSEC3 8 2 900 20261024190738 20261010183355 57159 wiki. f7qBjcIDT9MNBy+5K6mdeDmuBMSIbbiq lsHyYwDxRr3cYIrfvT0YtpGTaupg+34F a6tIyMTLu47m4uFj8lVDZuiAxbUN4U4S dT+gVPfJYh9agKcOgMZjdLUFIlQb10Sd LxNLt/SxLaLdpbLAP1j9tsOvGJebgKcD Y1kCpyOaBD+ElwLOLOtVNIN9iFkw673c fY86RALpr8L6RgzqcF41Og==\n73m6trb7qde3nv4vuh40n34j73ja22vo.wiki. 900 IN RRSIG NSEC3 13 2 900 20261024190738 20261010183355 56120 wiki. S1eawAJ/8NQR2mMo36vZVNV7SEy4CvZz 0dRecKdTysMF5jauK71/zvf2jHYCYBdo Vtqu1ReUQ55u3Ga9Puosgw==",
+        "wiki. 900 IN SOA a.nic.wiki. admin.tldns.godaddy. 1792038165 1800 300 604800 1800",
+        "wiki. 900 IN RRSIG SOA 8 1 900 20261029042405 20261015032405 57159 wiki. cigucdkDVHLEUknO02gkLgRpJILzQcXS Komdwt943lOXOf5mJY5cTntjHJF4kQf0 5KZhzCmPS0LFL0JlV/2rVygvXFLe7GGW VksgCo2DK3m0AecruRXTfVn3mzIij+On /hsKnxFSNrsQ59PABTBw6ctGgOrUM3HV kg+/7554zebwLNiFO638vqcrjwJGgB7/ HcSg1PN8icNp72//EWJrBA==\nwiki. 900 IN RRSIG SOA 13 1 900 20261029042405 20261015032405 56120 wiki. az5JCyCXI5wlE2gTjGmLi5BHHcX9epib TD87kpMSY9iyLvvw3jwWGkGHuXfoZgiy g631KTiJaj2GRILv6Y6EWA==",
+        "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki. 900 IN NSEC3 1 1 0 - ik6t6867stshpcaahtu3i8gtclh5s557 NS DS RRSIG",
+        "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki. 900 IN RRSIG NSEC3 8 2 900 20261028231915 20261015032243 57159 wiki. mY7417zbjgJnZYsOyWaI4UN+PClSSUs2 LdSc7OhPh6AOLgNVsx6GHsqOmbcvDZBU wEC/62hofKnzYyv7mfGtgCf77B5vU+jt TCC/LqfaptCpLdptfrIV2pUlkeRX6KlW Uq3qYhNE+2dcFRCStrkXQHv8ZM17slxC LsIY+W3bqgSJtjvSjAmcG41sBZ/EANmM 2wY5oGhxP1TSbxIGec0p/w==\nik4rfjvae9frt4sv0b96grd98n75rt4k.wiki. 900 IN RRSIG NSEC3 13 2 900 20261028231915 20261015032243 56120 wiki. eWK9CkP8xc7LTam5Gx4iO08XLL2r3XgK 1OoZdvnvcqFWCCRxWbeKoz9yVyj9iZru fO01MWJKCfyqHwckw85U0A=="
+      ]
+    },
+    {
+      "server": "156.154.174.82",
+      "aa": true,
+      "rcode": 0,
+      "ds_present": false,
+      "answer": [],
+      "authority": [
+        "wiki. 900 IN SOA a.nic.wiki. admin.tldns.godaddy. 1792038165 1800 300 604800 1800",
+        "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki. 900 IN NSEC3 1 1 0 - 740mkubt2cdvtpstjt931f1en5hveokq NS SOA TXT RRSIG DNSKEY NSEC3PARAM TYPE65534",
+        "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki. 900 IN NSEC3 1 1 0 - ik6t6867stshpcaahtu3i8gtclh5s557 NS DS RRSIG",
+        "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki. 900 IN RRSIG NSEC3 8 2 900 20261024190738 20261010183355 57159 wiki. f7qBjcIDT9MNBy+5K6mdeDmuBMSIbbiq lsHyYwDxRr3cYIrfvT0YtpGTaupg+34F a6tIyMTLu47m4uFj8lVDZuiAxbUN4U4S dT+gVPfJYh9agKcOgMZjdLUFIlQb10Sd LxNLt/SxLaLdpbLAP1j9tsOvGJebgKcD Y1kCpyOaBD+ElwLOLOtVNIN9iFkw673c fY86RALpr8L6RgzqcF41Og==\n73m6trb7qde3nv4vuh40n34j73ja22vo.wiki. 900 IN RRSIG NSEC3 13 2 900 20261024190738 20261010183355 56120 wiki. S1eawAJ/8NQR2mMo36vZVNV7SEy4CvZz 0dRecKdTysMF5jauK71/zvf2jHYCYBdo Vtqu1ReUQ55u3Ga9Puosgw==",
+        "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki. 900 IN RRSIG NSEC3 8 2 900 20261028231915 20261015032243 57159 wiki. mY7417zbjgJnZYsOyWaI4UN+PClSSUs2 LdSc7OhPh6AOLgNVsx6GHsqOmbcvDZBU wEC/62hofKnzYyv7mfGtgCf77B5vU+jt TCC/LqfaptCpLdptfrIV2pUlkeRX6KlW Uq3qYhNE+2dcFRCStrkXQHv8ZM17slxC LsIY+W3bqgSJtjvSjAmcG41sBZ/EANmM 2wY5oGhxP1TSbxIGec0p/w==\nik4rfjvae9frt4sv0b96grd98n75rt4k.wiki. 900 IN RRSIG NSEC3 13 2 900 20261028231915 20261015032243 56120 wiki. eWK9CkP8xc7LTam5Gx4iO08XLL2r3XgK 1OoZdvnvcqFWCCRxWbeKoz9yVyj9iZru fO01MWJKCfyqHwckw85U0A==",
+        "wiki. 900 IN RRSIG SOA 8 1 900 20261029042405 20261015032405 57159 wiki. cigucdkDVHLEUknO02gkLgRpJILzQcXS Komdwt943lOXOf5mJY5cTntjHJF4kQf0 5KZhzCmPS0LFL0JlV/2rVygvXFLe7GGW VksgCo2DK3m0AecruRXTfVn3mzIij+On /hsKnxFSNrsQ59PABTBw6ctGgOrUM3HV kg+/7554zebwLNiFO638vqcrjwJGgB7/ HcSg1PN8icNp72//EWJrBA==\nwiki. 900 IN RRSIG SOA 13 1 900 20261029042405 20261015032405 56120 wiki. az5JCyCXI5wlE2gTjGmLi5BHHcX9epib TD87kpMSY9iyLvvw3jwWGkGHuXfoZgiy g631KTiJaj2GRILv6Y6EWA=="
+      ]
+    }
+  ],
+  "recursive": [
+    {
+      "provider": "Google",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 43
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 43,
+            "TTL": 3417,
+            "data": "63051 13 2 B59B0A89BBAA94417C436484408DF8C27CA0145A37F03A7EF2819097BAD69E25"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 3417,
+            "data": "ds 8 2 3600 1793220204 1792024409 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRpHV0uril0Y+9AmFKLP3I6RZ3LT8znAnLpNfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1UqpXNk6GO7h43u+PqgqXk/GxwW/GigpsF0p7OFlT1SamEo9PTyfREemYe/F7V7BQFoiE6uSE6TlG0uOfb2udjdw=="
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 3417,
+            "data": "ds 13 2 3600 1793220204 1792024409 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQyurcUQFRLJmR/HqyhK5tpVdgaROtEz7zHT99G5NYjucn0q0p/p2nfwQ=="
+          }
+        ]
+      },
+      "ds_present": true,
+      "remaining_ds_ttl": 3417
+    },
+    {
+      "provider": "Cloudflare",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 43
+          }
+        ],
+        "Authority": [
+          {
+            "name": "wiki",
+            "type": 6,
+            "TTL": 900,
+            "data": "a.nic.wiki. admin.tldns.godaddy. 1792038165 1800 300 604800 1800"
+          },
+          {
+            "name": "wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "SOA 8 1 900 1793247845 1792034645 57159 wiki. cigucdkDVHLEUknO02gkLgRpJILzQcXSKomdwt943lOXOf5mJY5cTntjHJF4kQf05KZhzCmPS0LFL0JlV/2rVygvXFLe7GGWVksgCo2DK3m0AecruRXTfVn3mzIij+On/hsKnxFSNrsQ59PABTBw6ctGgOrUM3HVkg+/7554zebwLNiFO638vqcrjwJGgB7/HcSg1PN8icNp72//EWJrBA=="
+          },
+          {
+            "name": "wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "SOA 13 1 900 1793247845 1792034645 56120 wiki. az5JCyCXI5wlE2gTjGmLi5BHHcX9epibTD87kpMSY9iyLvvw3jwWGkGHuXfoZgiyg631KTiJaj2GRILv6Y6EWA=="
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki",
+            "type": 50,
+            "TTL": 900,
+            "data": "1 1 0 - IK6T6867STSHPCAAHTU3I8GTCLH5S557 NS DS RRSIG"
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "NSEC3 8 2 900 1793229555 1792034563 57159 wiki. mY7417zbjgJnZYsOyWaI4UN+PClSSUs2LdSc7OhPh6AOLgNVsx6GHsqOmbcvDZBUwEC/62hofKnzYyv7mfGtgCf77B5vU+jtTCC/LqfaptCpLdptfrIV2pUlkeRX6KlWUq3qYhNE+2dcFRCStrkXQHv8ZM17slxCLsIY+W3bqgSJtjvSjAmcG41sBZ/EANmM2wY5oGhxP1TSbxIGec0p/w=="
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "NSEC3 13 2 900 1793229555 1792034563 56120 wiki. eWK9CkP8xc7LTam5Gx4iO08XLL2r3XgK1OoZdvnvcqFWCCRxWbeKoz9yVyj9iZrufO01MWJKCfyqHwckw85U0A=="
+          },
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki",
+            "type": 50,
+            "TTL": 900,
+            "data": "1 1 0 - 740MKUBT2CDVTPSTJT931F1EN5HVEOKQ NS SOA TXT RRSIG DNSKEY NSEC3PARAM TYPE65534"
+          },
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "NSEC3 8 2 900 1792868858 1791657235 57159 wiki. f7qBjcIDT9MNBy+5K6mdeDmuBMSIbbiqlsHyYwDxRr3cYIrfvT0YtpGTaupg+34Fa6tIyMTLu47m4uFj8lVDZuiAxbUN4U4SdT+gVPfJYh9agKcOgMZjdLUFIlQb10SdLxNLt/SxLaLdpbLAP1j9tsOvGJebgKcDY1kCpyOaBD+ElwLOLOtVNIN9iFkw673cfY86RALpr8L6RgzqcF41Og=="
+          },
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "NSEC3 13 2 900 1792868858 1791657235 56120 wiki. S1eawAJ/8NQR2mMo36vZVNV7SEy4CvZz0dRecKdTysMF5jauK71/zvf2jHYCYBdoVtqu1ReUQ55u3Ga9Puosgw=="
+          }
+        ]
+      },
+      "ds_present": false,
+      "remaining_ds_ttl": 0
+    }
+  ],
+  "authoritative_withdrawal_verified": true,
+  "observed_recursive_caches_clear": false
+}

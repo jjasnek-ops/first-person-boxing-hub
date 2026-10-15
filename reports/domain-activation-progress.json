@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-15T04:32:37.3165551Z",
+  "zoneStatus": "active",
+  "activatedOn": "2026-10-15T04:32:15.016248Z",
+  "domains": [
+    {
+      "validation": "pending",
+      "name": "firstpersonboxinghub.wiki",
+      "status": "pending",
+      "verification": "active",
+      "error": null
+    },
+    {
+      "validation": "pending",
+      "name": "www.firstpersonboxinghub.wiki",
+      "status": "pending",
+      "verification": "active",
+      "error": null
+    }
+  ]
+}

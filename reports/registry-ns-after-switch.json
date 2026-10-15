@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-15T04:28:53.221979+00:00",
+  "rows": [
+    {
+      "server": "37.209.192.10",
+      "rcode": 0,
+      "nameservers": [
+        "launch1.spaceship.net",
+        "launch2.spaceship.net"
+      ]
+    },
+    {
+      "server": "156.154.174.82",
+      "rcode": 0,
+      "nameservers": [
+        "launch1.spaceship.net",
+        "launch2.spaceship.net"
+      ]
+    }
+  ]
+}
