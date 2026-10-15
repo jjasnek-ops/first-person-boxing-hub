@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-15T05:12:36.428Z",
+  "query": "stamina",
+  "foundFourResults": true,
+  "assets": [
+    {
+      "path": "/pagefind/pagefind-ui.js",
+      "version": "f88386cfe8"
+    },
+    {
+      "path": "/pagefind/pagefind.js",
+      "version": "f88386cfe8"
+    },
+    {
+      "path": "/pagefind/pagefind-worker.js",
+      "version": "f88386cfe8"
+    }
+  ],
+  "hasMore": false,
+  "truncated": false
+}

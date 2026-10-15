@@ -1,6 +1,6 @@
 # Page matrix
 
-Status means local publish readiness until deployment is verified. Full requested fields and null metrics: page-matrix.json. Two source URLs share the same developer description and are not independent corroboration.
+COMPLETED means published and HTTP/browser verified on https://firstpersonboxinghub.wiki; withheld candidates retain their evidence status. Full requested fields and null metrics: page-matrix.json. Two source URLs share the same developer description and are not independent corroboration.
 
 | Page | Native URL | Keyword | Evidence | Priority | Status |
 | --- | --- | --- | --- | --- | --- |

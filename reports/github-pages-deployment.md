@@ -1,20 +1,16 @@
 # GitHub and Cloudflare Pages
 
-Status: COMPLETED for repository and Pages deployment; BLOCKED for formal-domain launch.
+Repository and formal HTTPS deployment: COMPLETED. Final DNS acceptance: COMPLETED.
 
-- Repository: https://github.com/jjasnek-ops/first-person-boxing-hub
-- Branch: main
-- First published source: 22d42a36ee31fd2e89294a1c3bcc206096f35da8
-- AnvilWiki base: cab46ec2beda72cd6d4e8482ad0060bfa8d8815e (v2.37.0, MIT).
-- GitHub CI https://github.com/jjasnek-ops/first-person-boxing-hub/actions/runs/38670356503 succeeded. IndexNow is deliberately gated until SITE_LAUNCHED=true, so it does not notify an unlaunched formal host.
-- Pages project: first-person-boxing-hub; actual GitHub source association confirmed by API.
-- Build: pnpm build; output dist; Node 22.
-- First deployment: eba4586a-8989-49e5-87b2-00029118e497; production, main, exact first source commit; all stages successful at 2026-10-15T02:20:39Z (10:20 Asia/Shanghai).
-- URL: https://first-person-boxing-hub.pages.dev
-- Immutable deployment URL: https://eba4586a.first-person-boxing-hub.pages.dev
+- Repository: https://github.com/jjasnek-ops/first-person-boxing-hub, branch main.
+- AnvilWiki v2.37.0 / MIT, base cab46ec2beda72cd6d4e8482ad0060bfa8d8815e.
+- Pages project first-person-boxing-hub, GitHub source association verified; pnpm build, dist, Node 22.
+- First source 22d42a36ee31fd2e89294a1c3bcc206096f35da8 deployed as eba4586a-8989-49e5-87b2-00029118e497.
+- Latest implementation b70c6ce1728ff8699623f83e2de49cb3e4dbc739, CI https://github.com/jjasnek-ops/first-person-boxing-hub/actions/runs/38685252885 succeeded. Actual production deployment f9dfab8f-cb21-410c-ab4e-31e7e99f0c0f succeeded and formal deploy marker matches that SHA. Later report-only commits use the same pipeline.
+- Formal https://firstpersonboxinghub.wiki and apex/www custom bindings are Active; Pages fallback https://first-person-boxing-hub.pages.dev.
 
-Native push events did not start builds for the first two commits. Added the project-only github-ci-main hook following Cloudflare's documented Pages workflow. GitHub stores only its URL in CLOUDFLARE_PAGES_DEPLOY_HOOK; no account token or registrar credential was uploaded. CI calls it after all main push gates pass. Commit f7bf7164448e3c9836ba8ec152078095d0a5f9ea passed CI run 38672795922, including the trigger. Pages deployment 3a8780ee-9e96-45d6-8e12-6d4025466198 reports source deploy_hook, that exact commit and successful stages. CI-to-Pages deployment is verified.
+Native push association did not initially trigger builds. Added a project-only GitHub CI main deploy hook; verified exact-commit arrival at Pages. GitHub stores only that project's hook URL in CLOUDFLARE_PAGES_DEPLOY_HOOK, without broad Cloudflare or registrar credentials. CI calls it only after required main push checks pass.
 
-Remote HTTP audit verifies 21 sitemap URLs, metadata, robots, aliases, 404 and deployed commit marker. See live-http-audit.json. Pages TLS works; formal-domain DNS/HTTPS remains separate and blocked.
+Formal audit: all 21 sitemap URLs 200 with correct metadata, robots, aliases and 404; www-to-apex and HTTP-to-HTTPS permanent redirects retain paths/query strings. See formal-http-audit.json and formal-redirect-audit.json.
 
-GA4 commit cf15c0ba88695dde4e1d9937f43d02ab59494197 deployed successfully as 6d04b1c7. Final implementation commit 27ffe9ad2bc80c569fae93cd1b72de855bbf6bba (accessible menu label) passed CI 38674616701 and deployed successfully as 40f8e61e-8f7a-4f56-930a-8d0301b5f381. Final audit matches that marker. Subsequent report-only commits use the same verified pipeline.
+Public DNS acceptance passed 14/14 at 05:24:53Z. SITE_LAUNCHED=true then enabled; final IndexNow run/result is recorded in launch-verification.md. Acceptance by a notification endpoint does not prove search-engine indexing.

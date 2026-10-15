@@ -1,20 +1,30 @@
 {
-  "checkedAt": "2026-10-15T03:21:44.8503977Z",
-  "zoneStatus": "pending",
+  "checkedAt": "2026-10-15T05:20:50.8216142Z",
+  "zoneStatus": "active",
+  "activatedOn": "2026-10-15T04:32:15.016248Z",
   "nameservers": [
     "armfazh.ns.cloudflare.com",
     "laura.ns.cloudflare.com"
   ],
+  "cloudflareDnssec": "disabled",
+  "spaceshipDnssec": "disabled under specific user authorization; UI verified",
   "domains": [
     {
-      "validation": "pending",
-      "status": "pending",
-      "name": "firstpersonboxinghub.wiki"
+      "validation": "active",
+      "name": "firstpersonboxinghub.wiki",
+      "status": "active"
     },
     {
-      "validation": "pending",
-      "status": "pending",
-      "name": "www.firstpersonboxinghub.wiki"
+      "validation": "active",
+      "name": "www.firstpersonboxinghub.wiki",
+      "status": "active"
     }
-  ]
+  ],
+  "publicDnsCheckedAt": "2026-10-15T05:24:53.358009+00:00",
+  "publicDnsChecksPassed": true,
+  "publicDnsCheckCount": 14,
+  "registryDelegationVerified": true,
+  "oldRegistryDsWithdrawn": true,
+  "dnssecAutomaticallyReenabled": false,
+  "formalLaunchAcceptance": "COMPLETED"
 }

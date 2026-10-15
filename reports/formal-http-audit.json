@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-10-15T04:41:06.640900+00:00",
+  "checked_at": "2026-10-15T05:13:01.352079+00:00",
   "host": "https://firstpersonboxinghub.wiki",
   "index": {
     "url": "https://firstpersonboxinghub.wiki/sitemap-index.xml",
     "status": 200,
     "final_url": "https://firstpersonboxinghub.wiki/sitemap-index.xml",
     "content_type": "application/xml",
-    "request_seconds": 1.43,
+    "request_seconds": 0.806,
     "attempts": 1,
     "transient_errors": []
   },
@@ -17,7 +17,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.124,
+      "request_seconds": 2.439,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -36,7 +36,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/about/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.998,
+      "request_seconds": 1.856,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -55,7 +55,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/contact/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.962,
+      "request_seconds": 1.151,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -74,7 +74,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/copyright/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.995,
+      "request_seconds": 1.335,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -93,7 +93,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/faq/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.97,
+      "request_seconds": 1.057,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -112,7 +112,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.28,
+      "request_seconds": 4.104,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -131,7 +131,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/beginner-guide/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.139,
+      "request_seconds": 2.262,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -150,7 +150,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/codes/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.541,
+      "request_seconds": 2.782,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -169,7 +169,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/combat/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 3.374,
+      "request_seconds": 1.209,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -188,7 +188,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/mobile/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.57,
+      "request_seconds": 1.957,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -207,7 +207,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/privacy-policy/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.052,
+      "request_seconds": 1.077,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -226,7 +226,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/recent/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.546,
+      "request_seconds": 2.217,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -245,7 +245,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/tags/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.947,
+      "request_seconds": 1.418,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -264,7 +264,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/tags/beginner/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.972,
+      "request_seconds": 2.385,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -283,7 +283,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/tags/codes/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.142,
+      "request_seconds": 1.357,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -302,7 +302,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/tags/combat/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.369,
+      "request_seconds": 1.257,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -321,9 +321,14 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/tags/mobile/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 2.364,
-      "attempts": 1,
-      "transient_errors": [],
+      "request_seconds": 1.082,
+      "attempts": 2,
+      "transient_errors": [
+        {
+          "error": "URLError",
+          "reason_type": "SSLEOFError"
+        }
+      ],
       "meta": {
         "h1": 1,
         "canonical": "https://firstpersonboxinghub.wiki/tags/mobile/",
@@ -340,7 +345,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/tags/practice/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.917,
+      "request_seconds": 2.677,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -359,7 +364,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/tags/setup/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.916,
+      "request_seconds": 1.332,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -378,7 +383,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/tags/verification/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.985,
+      "request_seconds": 1.071,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -397,7 +402,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/terms-of-service/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 0.94,
+      "request_seconds": 3.904,
       "attempts": 1,
       "transient_errors": [],
       "meta": {
@@ -418,7 +423,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/robots.txt",
       "content_type": "text/plain; charset=utf-8",
-      "request_seconds": 0.743,
+      "request_seconds": 0.751,
       "attempts": 1,
       "transient_errors": [],
       "sample": "User-agent: *\nAllow: /\n\nSitemap: https://firstpersonboxinghub.wiki/sitemap-index.xml"
@@ -428,7 +433,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/sitemap-index.xml",
       "content_type": "application/xml",
-      "request_seconds": 1.5,
+      "request_seconds": 1.817,
       "attempts": 1,
       "transient_errors": [],
       "sample": null
@@ -438,7 +443,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/codes/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 2.175,
+      "request_seconds": 2.931,
       "attempts": 1,
       "transient_errors": [],
       "sample": null
@@ -448,7 +453,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/mobile/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.642,
+      "request_seconds": 4.168,
       "attempts": 1,
       "transient_errors": [],
       "sample": null
@@ -458,7 +463,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/combat/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.71,
+      "request_seconds": 6.529,
       "attempts": 1,
       "transient_errors": [],
       "sample": null
@@ -468,7 +473,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/guides/beginner-guide/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 3.292,
+      "request_seconds": 2.241,
       "attempts": 1,
       "transient_errors": [],
       "sample": null
@@ -477,7 +482,7 @@
       "url": "https://firstpersonboxinghub.wiki/does-not-exist-launch-check/",
       "status": 404,
       "final_url": "https://firstpersonboxinghub.wiki/does-not-exist-launch-check/",
-      "request_seconds": 1.458,
+      "request_seconds": 1.006,
       "attempts": 1,
       "transient_errors": [],
       "sample": null
@@ -487,10 +492,10 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/.well-known/anvilwiki-deploy.txt",
       "content_type": "text/plain; charset=utf-8",
-      "request_seconds": 0.785,
+      "request_seconds": 0.901,
       "attempts": 1,
       "transient_errors": [],
-      "sample": "cef996db83730851fccbd1eeef6704494eb19926"
+      "sample": "b70c6ce1728ff8699623f83e2de49cb3e4dbc739"
     }
   ],
   "formal_domain": [
@@ -499,7 +504,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/",
       "content_type": "text/html; charset=utf-8",
-      "request_seconds": 1.585,
+      "request_seconds": 3.172,
       "attempts": 1,
       "transient_errors": [],
       "title": "First Person Boxing Wiki & Beginner Guides | FPB Hub",
@@ -510,7 +515,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/robots.txt",
       "content_type": "text/plain; charset=utf-8",
-      "request_seconds": 0.981,
+      "request_seconds": 0.932,
       "attempts": 1,
       "transient_errors": [],
       "title": "",
@@ -521,7 +526,7 @@
       "status": 200,
       "final_url": "https://firstpersonboxinghub.wiki/sitemap-index.xml",
       "content_type": "application/xml",
-      "request_seconds": 5.013,
+      "request_seconds": 1.489,
       "attempts": 1,
       "transient_errors": [],
       "title": "",

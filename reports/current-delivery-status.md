@@ -1,20 +1,22 @@
 # First Person Boxing Hub delivery status
 
-Date: 2026-10-15, Asia/Shanghai. Overall: BLOCKED for the formal-domain launch; website and Pages release deployed.
+Updated: 2026-10-15, Asia/Shanghai. Formal HTTPS deployment is live. Final acceptance: COMPLETED.
 
-| Area | Result |
+| Area | Verified result |
 | --- | --- |
-| Research | Official Roblox identity/mechanics verified. Suggest and sampled SERPs recorded. Similarweb US data is plan-restricted; no invented volume or rankings. |
-| Content | Four sourced English MDX guides: Beginner, Combat, Mobile and Codes. Exact inputs and unsupported system pages withheld. |
-| Engineering | AnvilWiki v2.37.0 / Astro / MDX. Build, lint, types, 200 applicable assertions, links, sitemap and rebranding checks pass. |
-| GitHub | https://github.com/jjasnek-ops/first-person-boxing-hub, main. CI succeeds. |
-| Pages | https://first-person-boxing-hub.pages.dev serves the site over HTTPS. CI triggers a project-only hook; deployment 3a8780ee successfully built f7bf716 from GitHub. |
-| Remote audit | 21 sitemap URLs return 200 with correct metadata and one H1. Robots, aliases and real 404 verified. Mobile sample has no document overflow at 375px. |
-| Domain | Zone, assigned NS, apex/www bindings and DNS prepared. Zone/bindings pending; registrar NS retained. |
-| GSC | Domain ownership verified with the exact TXT preserved at both providers. Sitemap and indexing await the formal host. |
-| GA4 | New property 559103339, stream 16132040655, G-P1MXKVMQVT. Consent gate, browser page_view HTTP 204 and GA4 Realtime receipt verified on Pages; formal-host self-test awaits DNS. |
-| Monetization | Advertising disabled. |
+| Research | Official Roblox identity and supported mechanics verified. Suggest/SERP samples saved; US search volume unavailable, not invented. |
+| Content | Four sourced English guides; unsupported exact controls, glove stats and updates withheld. |
+| Engineering | AnvilWiki v2.37.0 / Astro / MDX. 17 applicable suites, 201 tests; build, lint, types and link checks pass. |
+| GitHub / Pages | main CI and exact-commit Pages deployment verified. Latest implementation b70c6ce1728ff8699623f83e2de49cb3e4dbc739; deployment f9dfab8f-cb21-410c-ab4e-31e7e99f0c0f. |
+| Formal host | https://firstpersonboxinghub.wiki — all 21 sitemap pages 200, correct canonical/description/one H1; robots, aliases and true 404 pass. |
+| Domain | Spaceship NS saved to armfazh.ns.cloudflare.com / laura.ns.cloudflare.com. Registry delegation verified; Cloudflare Zone and apex/www Pages bindings Active; certificate Active. |
+| DNSSEC | Specific user authorization received. Existing Spaceship signing disabled and old registry DS withdrawn; no automatic re-enable. Observed Google/Cloudflare DS, NS, address and TXT gates all passed at 05:24:53Z. |
+| Redirects | www to HTTPS apex and HTTP to HTTPS return permanent redirects preserving path/query. |
+| Browser | Formal-host home, beginner and combat at 375px have no document overflow. Search returns four stamina results and correct article anchor. Temporary metrics cleared. |
+| GSC | Correct Domain Property verified. sitemap-index.xml Success / last read Oct 15 / discovered 0 at inspection. Home and beginner indexing requests accepted; actual indexing unverified. |
+| GA4 | Own property 559103339 / G-P1MXKVMQVT; consent gate, formal home/guide page_view HTTP 204 and correct-property Realtime receipt verified. Self-tests only. |
+| Monetization | Advertising disabled. No organic traffic/revenue claimed. |
 
-The domain actually has registry DS records confirmed by two authoritative servers and a validated existing chain. It is outside the user's unsigned-new-domain shortcut. Spaceship login is restored and the actual DNSSEC tab explicitly shows Enabled with automatically configured DS. The custom NS draft was checked against this Zone and cancelled without saving. The user instructed no proactive DNSSEC changes; a precise action-time request to disable this domain's current DNSSEC/old DS before the NS switch is awaiting a response. No NS/DS/DNSSEC mutation has been made. See domain-resume-status.md; do not use an undocumented endpoint.
+Final DNS evidence and post-launch notification state are recorded in launch-verification.md. Dated Day 3/7/14/28 maintenance plan is saved; no scheduled automation is claimed.
 
-Formal-domain HTTPS, www redirect, GSC sitemap retrieval, indexing and organic traffic are not claimed complete. See launch-verification.md, domain-api-operations.md, ../research/evidence-ledger.md and gsc-ga4-status.md. No launch automation scheduled without an established launch date.
+Final public DNS gate passed at 2026-10-15T05:24:53Z (13:24:53 Asia/Shanghai): 14/14 validating resolver checks, both registry delegations. SITE_LAUNCHED=true enabled after that gate; IndexNow release run is being verified. No global cache-expiry guarantee.

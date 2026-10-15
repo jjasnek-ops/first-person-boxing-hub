@@ -1,0 +1,646 @@
+{
+  "checked_at": "2026-10-15T05:12:24.126667+00:00",
+  "domain": "firstpersonboxinghub.wiki",
+  "registry": [
+    {
+      "server": "37.209.192.10",
+      "rcode": 0,
+      "nameservers": [
+        "armfazh.ns.cloudflare.com",
+        "laura.ns.cloudflare.com"
+      ],
+      "matches_target": true
+    },
+    {
+      "server": "156.154.174.82",
+      "rcode": 0,
+      "nameservers": [
+        "laura.ns.cloudflare.com",
+        "armfazh.ns.cloudflare.com"
+      ],
+      "matches_target": true
+    }
+  ],
+  "recursive": [
+    {
+      "provider": "Google",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "DS",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 43
+          }
+        ],
+        "Authority": [
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki.",
+            "type": 50,
+            "TTL": 900,
+            "data": "1 1 0 - 740MKUBT2CDVTPSTJT931F1EN5HVEOKQ NS SOA TXT RRSIG DNSKEY NSEC3PARAM TYPE65534"
+          },
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki.",
+            "type": 46,
+            "TTL": 900,
+            "data": "nsec3 8 2 900 1792868858 1791657235 57159 wiki. f7qBjcIDT9MNBy+5K6mdeDmuBMSIbbiqlsHyYwDxRr3cYIrfvT0YtpGTaupg+34Fa6tIyMTLu47m4uFj8lVDZuiAxbUN4U4SdT+gVPfJYh9agKcOgMZjdLUFIlQb10SdLxNLt/SxLaLdpbLAP1j9tsOvGJebgKcDY1kCpyOaBD+ElwLOLOtVNIN9iFkw673cfY86RALpr8L6RgzqcF41Og=="
+          },
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki.",
+            "type": 46,
+            "TTL": 900,
+            "data": "nsec3 13 2 900 1792868858 1791657235 56120 wiki. S1eawAJ/8NQR2mMo36vZVNV7SEy4CvZz0dRecKdTysMF5jauK71/zvf2jHYCYBdoVtqu1ReUQ55u3Ga9Puosgw=="
+          },
+          {
+            "name": "wiki.",
+            "type": 6,
+            "TTL": 900,
+            "data": "a.nic.wiki. admin.tldns.godaddy. 1792040476 1800 300 604800 1800"
+          },
+          {
+            "name": "wiki.",
+            "type": 46,
+            "TTL": 900,
+            "data": "soa 8 1 900 1793250271 1792037071 57159 wiki. iXyjWnYjJz0Es5KTsNSm8xbrObi/zpiOAOUbnBC+6jbW+A5KYQL5cvtsFVzLvMyAKTmxSymoCrGEQYPUj7RuCzYdK5Vd3h/hGXgTINlGCZAasv3ICGj3dcuXVQ+TEMARKSswkS7KogOMZSh7a/YaENrN9Or36h6Dm/644jZanOf4CP27/ojB5wx0OIPG+pMw3C88dJMKEcwrT0SiDCEFXQ=="
+          },
+          {
+            "name": "wiki.",
+            "type": 46,
+            "TTL": 900,
+            "data": "soa 13 1 900 1793250271 1792037071 56120 wiki. ++hFSrDCksOFn4ktls8Aa40QCwxbkvPZ8Bvbw1y+VQ1jYfxkArePWygqP9PBSYxa6gAC1gROcslYyMBLU5EYtA=="
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki.",
+            "type": 50,
+            "TTL": 900,
+            "data": "1 1 0 - IK6T6867STSHPCAAHTU3I8GTCLH5S557 NS DS RRSIG"
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki.",
+            "type": 46,
+            "TTL": 900,
+            "data": "nsec3 8 2 900 1793229555 1792034563 57159 wiki. mY7417zbjgJnZYsOyWaI4UN+PClSSUs2LdSc7OhPh6AOLgNVsx6GHsqOmbcvDZBUwEC/62hofKnzYyv7mfGtgCf77B5vU+jtTCC/LqfaptCpLdptfrIV2pUlkeRX6KlWUq3qYhNE+2dcFRCStrkXQHv8ZM17slxCLsIY+W3bqgSJtjvSjAmcG41sBZ/EANmM2wY5oGhxP1TSbxIGec0p/w=="
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki.",
+            "type": 46,
+            "TTL": 900,
+            "data": "nsec3 13 2 900 1793229555 1792034563 56120 wiki. eWK9CkP8xc7LTam5Gx4iO08XLL2r3XgK1OoZdvnvcqFWCCRxWbeKoz9yVyj9iZrufO01MWJKCfyqHwckw85U0A=="
+          }
+        ],
+        "Comment": "Response from 37.209.194.10."
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:20 GMT",
+        "Age": null,
+        "Cache-Control": "private, max-age=900"
+      },
+      "passed": true
+    },
+    {
+      "provider": "Google",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "NS",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 2
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "laura.ns.cloudflare.com."
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "armfazh.ns.cloudflare.com."
+          }
+        ],
+        "Comment": "Response from 162.159.44.104."
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:20 GMT",
+        "Age": null,
+        "Cache-Control": "private, max-age=21600"
+      },
+      "passed": true
+    },
+    {
+      "provider": "Google",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "A",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 1,
+            "TTL": 300,
+            "data": "104.21.17.60"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 1,
+            "TTL": 300,
+            "data": "172.67.222.250"
+          }
+        ],
+        "Comment": "Response from 162.159.44.104."
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:20 GMT",
+        "Age": null,
+        "Cache-Control": "private, max-age=300"
+      },
+      "passed": true
+    },
+    {
+      "provider": "Google",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "AAAA",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 28
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 28,
+            "TTL": 300,
+            "data": "2606:4700:3035::ac43:defa"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 28,
+            "TTL": 300,
+            "data": "2606:4700:3036::6815:113c"
+          }
+        ],
+        "Comment": "Response from 162.159.44.104."
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:22 GMT",
+        "Age": null,
+        "Cache-Control": "private, max-age=300"
+      },
+      "passed": true
+    },
+    {
+      "provider": "Google",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "TXT",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 16
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 16,
+            "TTL": 300,
+            "data": "google-site-verification=lAghzxhyprRW7TkzlX0ORcbQXiY8VPddrP4Sdo5layU"
+          }
+        ],
+        "Comment": "Response from 172.64.32.183."
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:23 GMT",
+        "Age": null,
+        "Cache-Control": "private, max-age=300"
+      },
+      "passed": true
+    },
+    {
+      "provider": "Google",
+      "name": "www.firstpersonboxinghub.wiki",
+      "type": "A",
+      "response": {
+        "Status": 2,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.firstpersonboxinghub.wiki.",
+            "type": 1
+          }
+        ],
+        "Comment": "DNSSEC validation failure. Check http://dnsviz.net/d/www.firstpersonboxinghub.wiki/dnssec/ and http://dnssec-debugger.verisignlabs.com/www.firstpersonboxinghub.wiki for errors",
+        "extended_dns_errors": [
+          {
+            "info_code": 10,
+            "extra_text": "For firstpersonboxinghub.wiki/soa"
+          }
+        ]
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:21 GMT",
+        "Age": null,
+        "Cache-Control": "private, max-age=0"
+      },
+      "passed": false
+    },
+    {
+      "provider": "Google",
+      "name": "www.firstpersonboxinghub.wiki",
+      "type": "AAAA",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.firstpersonboxinghub.wiki.",
+            "type": 28
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.firstpersonboxinghub.wiki.",
+            "type": 28,
+            "TTL": 300,
+            "data": "2606:4700:3036::6815:113c"
+          },
+          {
+            "name": "www.firstpersonboxinghub.wiki.",
+            "type": 28,
+            "TTL": 300,
+            "data": "2606:4700:3035::ac43:defa"
+          }
+        ],
+        "Comment": "Response from 108.162.195.104."
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:21 GMT",
+        "Age": null,
+        "Cache-Control": "private, max-age=300"
+      },
+      "passed": true
+    },
+    {
+      "provider": "Cloudflare",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "DS",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 43
+          }
+        ],
+        "Authority": [
+          {
+            "name": "wiki",
+            "type": 6,
+            "TTL": 900,
+            "data": "a.nic.wiki. admin.tldns.godaddy. 1792040476 1800 300 604800 1800"
+          },
+          {
+            "name": "wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "SOA 8 1 900 1793250271 1792037071 57159 wiki. iXyjWnYjJz0Es5KTsNSm8xbrObi/zpiOAOUbnBC+6jbW+A5KYQL5cvtsFVzLvMyAKTmxSymoCrGEQYPUj7RuCzYdK5Vd3h/hGXgTINlGCZAasv3ICGj3dcuXVQ+TEMARKSswkS7KogOMZSh7a/YaENrN9Or36h6Dm/644jZanOf4CP27/ojB5wx0OIPG+pMw3C88dJMKEcwrT0SiDCEFXQ=="
+          },
+          {
+            "name": "wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "SOA 13 1 900 1793250271 1792037071 56120 wiki. ++hFSrDCksOFn4ktls8Aa40QCwxbkvPZ8Bvbw1y+VQ1jYfxkArePWygqP9PBSYxa6gAC1gROcslYyMBLU5EYtA=="
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki",
+            "type": 50,
+            "TTL": 900,
+            "data": "1 1 0 - IK6T6867STSHPCAAHTU3I8GTCLH5S557 NS DS RRSIG"
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "NSEC3 8 2 900 1793229555 1792034563 57159 wiki. mY7417zbjgJnZYsOyWaI4UN+PClSSUs2LdSc7OhPh6AOLgNVsx6GHsqOmbcvDZBUwEC/62hofKnzYyv7mfGtgCf77B5vU+jtTCC/LqfaptCpLdptfrIV2pUlkeRX6KlWUq3qYhNE+2dcFRCStrkXQHv8ZM17slxCLsIY+W3bqgSJtjvSjAmcG41sBZ/EANmM2wY5oGhxP1TSbxIGec0p/w=="
+          },
+          {
+            "name": "ik4rfjvae9frt4sv0b96grd98n75rt4k.wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "NSEC3 13 2 900 1793229555 1792034563 56120 wiki. eWK9CkP8xc7LTam5Gx4iO08XLL2r3XgK1OoZdvnvcqFWCCRxWbeKoz9yVyj9iZrufO01MWJKCfyqHwckw85U0A=="
+          },
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki",
+            "type": 50,
+            "TTL": 900,
+            "data": "1 1 0 - 740MKUBT2CDVTPSTJT931F1EN5HVEOKQ NS SOA TXT RRSIG DNSKEY NSEC3PARAM TYPE65534"
+          },
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "NSEC3 8 2 900 1792868858 1791657235 57159 wiki. f7qBjcIDT9MNBy+5K6mdeDmuBMSIbbiqlsHyYwDxRr3cYIrfvT0YtpGTaupg+34Fa6tIyMTLu47m4uFj8lVDZuiAxbUN4U4SdT+gVPfJYh9agKcOgMZjdLUFIlQb10SdLxNLt/SxLaLdpbLAP1j9tsOvGJebgKcDY1kCpyOaBD+ElwLOLOtVNIN9iFkw673cfY86RALpr8L6RgzqcF41Og=="
+          },
+          {
+            "name": "73m6trb7qde3nv4vuh40n34j73ja22vo.wiki",
+            "type": 46,
+            "TTL": 900,
+            "data": "NSEC3 13 2 900 1792868858 1791657235 56120 wiki. S1eawAJ/8NQR2mMo36vZVNV7SEy4CvZz0dRecKdTysMF5jauK71/zvf2jHYCYBdoVtqu1ReUQ55u3Ga9Puosgw=="
+          }
+        ]
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:22 GMT",
+        "Age": null,
+        "Cache-Control": null
+      },
+      "passed": true
+    },
+    {
+      "provider": "Cloudflare",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "NS",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 2
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 2,
+            "TTL": 86400,
+            "data": "armfazh.ns.cloudflare.com."
+          },
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 2,
+            "TTL": 86400,
+            "data": "laura.ns.cloudflare.com."
+          }
+        ]
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:24 GMT",
+        "Age": null,
+        "Cache-Control": null
+      },
+      "passed": true
+    },
+    {
+      "provider": "Cloudflare",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "A",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 1,
+            "TTL": 300,
+            "data": "104.21.17.60"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 1,
+            "TTL": 300,
+            "data": "172.67.222.250"
+          }
+        ]
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:23 GMT",
+        "Age": null,
+        "Cache-Control": null
+      },
+      "passed": true
+    },
+    {
+      "provider": "Cloudflare",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "AAAA",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 28
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 28,
+            "TTL": 300,
+            "data": "2606:4700:3035::ac43:defa"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 28,
+            "TTL": 300,
+            "data": "2606:4700:3036::6815:113c"
+          }
+        ]
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:23 GMT",
+        "Age": null,
+        "Cache-Control": null
+      },
+      "passed": true
+    },
+    {
+      "provider": "Cloudflare",
+      "name": "firstpersonboxinghub.wiki",
+      "type": "TXT",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 16
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki",
+            "type": 16,
+            "TTL": 300,
+            "data": "\"google-site-verification=lAghzxhyprRW7TkzlX0ORcbQXiY8VPddrP4Sdo5layU\""
+          }
+        ]
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:23 GMT",
+        "Age": null,
+        "Cache-Control": null
+      },
+      "passed": true
+    },
+    {
+      "provider": "Cloudflare",
+      "name": "www.firstpersonboxinghub.wiki",
+      "type": "A",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.firstpersonboxinghub.wiki",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.firstpersonboxinghub.wiki",
+            "type": 1,
+            "TTL": 300,
+            "data": "104.21.17.60"
+          },
+          {
+            "name": "www.firstpersonboxinghub.wiki",
+            "type": 1,
+            "TTL": 300,
+            "data": "172.67.222.250"
+          }
+        ]
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:23 GMT",
+        "Age": null,
+        "Cache-Control": null
+      },
+      "passed": true
+    },
+    {
+      "provider": "Cloudflare",
+      "name": "www.firstpersonboxinghub.wiki",
+      "type": "AAAA",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "www.firstpersonboxinghub.wiki",
+            "type": 28
+          }
+        ],
+        "Answer": [
+          {
+            "name": "www.firstpersonboxinghub.wiki",
+            "type": 28,
+            "TTL": 300,
+            "data": "2606:4700:3036::6815:113c"
+          },
+          {
+            "name": "www.firstpersonboxinghub.wiki",
+            "type": 28,
+            "TTL": 300,
+            "data": "2606:4700:3035::ac43:defa"
+          }
+        ]
+      },
+      "http_cache": {
+        "Date": "Thu, 15 Oct 2026 05:12:24 GMT",
+        "Age": null,
+        "Cache-Control": null
+      },
+      "passed": true
+    }
+  ],
+  "registry_delegation_verified": true,
+  "all_recursive_checks_passed": false,
+  "scope": "Observed authoritative servers and public resolvers; no claim of globally expired caches."
+}

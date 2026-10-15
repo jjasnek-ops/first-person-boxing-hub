@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-15T05:10:59.183Z",
+  "source": "actual formal hostname self-test; client IDs, cookies and headers excluded",
+  "events": [
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": null,
+      "documentUrl": null
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": null,
+      "documentUrl": null,
+      "status": 200
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": "page_view",
+      "documentUrl": "https://firstpersonboxinghub.wiki/"
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": "page_view",
+      "documentUrl": "https://firstpersonboxinghub.wiki/",
+      "status": 204
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": null,
+      "documentUrl": null
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.googletagmanager.com",
+      "path": "/gtag/js",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": null,
+      "documentUrl": null,
+      "status": 200
+    },
+    {
+      "method": "Network.requestWillBeSent",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": "page_view",
+      "documentUrl": "https://firstpersonboxinghub.wiki/guides/beginner-guide/"
+    },
+    {
+      "method": "Network.responseReceived",
+      "host": "www.google-analytics.com",
+      "path": "/g/collect",
+      "measurementId": "G-P1MXKVMQVT",
+      "event": "page_view",
+      "documentUrl": "https://firstpersonboxinghub.wiki/guides/beginner-guide/",
+      "status": 204
+    }
+  ],
+  "hasMore": false,
+  "truncated": false
+}

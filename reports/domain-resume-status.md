@@ -1,24 +1,15 @@
-# Domain resume checkpoint — 2026-10-15
+# Domain resume closure — 2026-10-15
 
-Status: BLOCKED on the specific DNSSEC authorization boundary, not browser login.
+Domain onboarding: COMPLETED. Public resolver acceptance: COMPLETED.
 
-User restored Spaceship login and asked to continue launch while retaining prior DNSSEC boundaries. The browser connection initially timed out; a supported session reset recovered it. The existing Advanced DNS tab is now authenticated.
+Spaceship login was restored. The exact domain firstpersonboxinghub.wiki showed DNSSEC Enabled, with authoritative DS 63051 / algorithm 13. Therefore the user's unsigned-new-domain shortcut did not apply. The user explicitly answered “授权此次处理并继续上线” to the scoped request to disable this domain's old DNSSEC/DS, verify withdrawal and migrate NS; no further confirmation was needed for this same scope.
 
-Read-only findings:
+- Disabled existing Spaceship DNSSEC through its actual domain UI and confirmed Disabled. No automatic re-enable.
+- At 04:26:46Z, both checked .wiki authoritative servers returned no DS. Initial recursive caches still retained the old DS. Assessed the approved cache-risk branch for this unlaunched site with no existing web/mail service; retained the final acceptance gate until observed public resolver errors clear.
+- At 04:28:17Z, documented registrar NS API saved the exact Cloudflare pair, armfazh.ns.cloudflare.com and laura.ns.cloudflare.com. Read-back and actual browser confirmed saved values.
+- At 04:31:04Z both checked registry servers delegated to Cloudflare. Zone activated 04:32:15Z. Apex and www Pages bindings and Universal certificate are Active.
+- Formal HTTPS, 21-page audit, permanent redirects, browser mobile/search, GSC sitemap and GA4 formal-host receipt passed. See launch-verification.md.
 
-- Selected exactly firstpersonboxinghub.wiki. NS remains launch1.spaceship.net / launch2.spaceship.net.
-- Current registrar custom inventory contains one GSC TXT, matching the previously written verification value. No unrelated records modified.
-- Actual DNSSEC tab explicitly shows Enabled and says Spaceship's supporting DS records are configured automatically.
-- Fresh authoritative DS queries to 37.209.192.10 and 156.154.174.82 still return DS 63051 / 13 / 2 with TTL 3600. Full evidence: domain-resume-dns.json. Target Cloudflare DNSSEC is disabled.
-- CF Zone and both Pages custom domains remain pending. CNAME apex/www and GSC TXT are correctly prepared. Exact state: domain-resume-cloudflare.json and domain-resume-readiness.json.
-- Latest production deployment 0d08c817 is successful and serves GitHub commit 1be3b6ff36e5cf201d8f55bafd6d383591ddb15d.
+Historical pending/login/authorization snapshots remain dated evidence, not current blockers. No unrelated account resources changed and no credential published.
 
-Prepared the actual custom NS form with armfazh.ns.cloudflare.com and laura.ns.cloudflare.com, verified the displayed values, then cancelled without saving. No verified safe automatic DS transition was established. Did not click Disable, save NS, add/remove DS, or enable target DNSSEC.
-
-Action-time confirmation requested: authorize disabling only this domain's existing Spaceship DNSSEC and withdrawing the corresponding old DS, verify authoritative removal and cached-chain safety, then perform the already-authorized NS migration. It would temporarily remove DNSSEC validation. Do not automatically enable it again. No response/elapsed time is approval.
-
-Local review screenshot: screenshots/spaceship-dnssec-resume.png, excluded from the public repository. Resume with the user's answer; all host HTTPS/GSC sitemap/GA4 formal-host checks remain dependent on safe activation.
-
-## Authorization received
-
-User answer: authorize this specific processing and continue launch. Spaceship DNSSEC disabled through the exact domain UI and visibly verified. Old DS withdrawal is still pending on authoritative servers in the first two checks. Current blocker is propagation, not missing permission. No NS write yet. Continue without another approval for this same authorized scope; do not automatically enable DNSSEC.
+Final resolver gate passed 05:24:53Z: 14/14 Google/Cloudflare checks; no old DS or SERVFAIL. Both registry delegations match the assigned NS. Evidence: formal-domain-dns.json.

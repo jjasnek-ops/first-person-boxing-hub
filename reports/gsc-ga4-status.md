@@ -1,29 +1,23 @@
 # Search Console and analytics
 
+Updated 2026-10-15. Setup and formal-host self-tests: COMPLETED.
+
 ## Search Console
 
-Status: COMPLETED for Domain Property ownership verification, sc-domain:firstpersonboxinghub.wiki. Confirmed absent in the visible property list, created it, and added the exact TXT through documented registrar DNS API plus the target CF Zone. Public Google DNS returns TXT with AD=true. GSC displayed Ownership verified and Processing data. Preserve the TXT. Screenshot retained locally, excluded from the public repository due account chrome.
+Correct Domain Property: sc-domain:firstpersonboxinghub.wiki. Ownership verified; exact Google TXT preserved in Cloudflare. No other property's metrics reused.
 
-Sitemap submission: BLOCKED until the formal host serves XML over HTTPS. URL Inspection/discovery/indexing/impressions/clicks: NOT_STARTED or unverified. No other property's metrics reused. Verification is not indexing.
+Submitted https://firstpersonboxinghub.wiki/sitemap-index.xml. Actual Sitemaps UI shows Success, Submitted / Last read Oct 15, 2026, Discovered pages 0 at latest inspection. Home and /guides/beginner-guide/ URL Inspection showed not indexed / URL unknown to Google. Both Request indexing actions returned Indexing requested / priority crawl queue. Receipt and request acceptance do not prove indexing, impressions or clicks.
+
+Local-only proof screenshots: screenshots/gsc-sitemap-submitted.png, gsc-home-index-requested.png and gsc-core-inspection.png. Account chrome is excluded from the public repository.
 
 ## GA4
 
-Property creation: COMPLETED. Existing account, new property First Person Boxing Hub, property ID 559103339. Timezone China Time (GMT+08:00), USD; Games, small site, understand traffic objective. No existing project property modified. Website stream https://firstpersonboxinghub.wiki, stream ID 16132040655, Measurement ID G-P1MXKVMQVT. Creation was visibly confirmed, without a new terms acceptance.
+New site-specific property 559103339, stream 16132040655, Measurement ID G-P1MXKVMQVT. Timezone China (GMT+08:00), USD. Correct website stream: https://firstpersonboxinghub.wiki. No existing project property changed.
 
-Instrumentation deployed through wrangler.toml and the inherited consent-gated loader; privacy and banner copy updated. Local build explicitly used PUBLIC_GA_ID because local Astro does not read Wrangler vars. Consent regression suite: 4 assertions passed. CF source build reads Wrangler vars; actual remote HTML and browser confirm the project ID exists, banner appears, and no gtag script is loaded before consent. Clicking Accept removes the banner and loads the exact project's gtag.js. Browser network pageview and GA received-data verification are recorded below after the test.
+Deployed consent-gated loader: before consent no gtag script; Accept loads the exact Measurement ID. Decline plus reload on the immutable deployment retains the rejection and does not load gtag. Four consent regression assertions pass. Advertising, Cloudflare Web Analytics and comments remain off.
 
-An earlier DOM snapshot misleadingly showed Loading while the actual UI had loaded; that diagnostic is superseded. The temporary Google tag iframe also resisted pointer actions; Escape recovered it. No UI-loading blocker remains.
+Actual formal-host home and beginner guide sent page_view to GA /g/collect and received HTTP 204. gtag.js returned HTTP 200. Sanitized evidence: ga4-formal-network-proof.json; no client ID, cookies or request headers stored. Initial CDP timeouts were recovered after reloading the owned site tab; the final formal-host capture succeeded.
 
-Advertising remains disabled. The local GA screenshot is excluded from the public repository. Ordinary reporting, organic sessions and indexing remain unestablished; a self-test must not be represented as organic traffic.
+Correct-property Realtime pages snapshot showed one active user, two views: / and /guides/beginner-guide/ each one. Local-only screenshot: screenshots/ga4-formal-realtime-pages.png. Earlier Pages proof is separately retained in ga4-network-proof.json.
 
-Decline branch also passed on the actual immutable deployment: after Decline and reload, the banner stays dismissed and no gtag script is loaded.
-
-## Browser receipt proof
-
-Status: COMPLETED for Pages instrumentation and received self-test. Before consent: banner visible, no gtag script. Accept loads gtag.js for G-P1MXKVMQVT (HTTP 200). The actual browser sent en=page_view for /guides/combat/ to Google Analytics /g/collect with the same measurement ID and received HTTP 204. Sanitized evidence: ga4-network-proof.json (no client ID, cookies or headers retained). The correct property's Realtime overview displayed page_view=1 and session_start=1. Browser warning/error log was empty. Local screenshot: screenshots/ga4-realtime.png. Formal-host self-test remains BLOCKED until DNS/TLS launch; this Pages self-test is not an organic session or evidence of Google indexing.
-
-## Formal hostname self-test — 2026-10-15
-
-Consent loading on https://firstpersonboxinghub.wiki was verified in the actual browser: no GA script before acceptance; after Accept, the exact script URL is https://www.googletagmanager.com/gtag/js?id=G-P1MXKVMQVT. Navigated through the home page's Start boxing link to /guides/beginner-guide/. The correct property's Realtime pages reported active users=1, views=2, with / and /guides/beginner-guide/ each one view. Receipt and page-path verification: COMPLETED. Screenshot kept locally: screenshots/ga4-formal-realtime-pages.png. Formal raw network capture was unavailable due repeated CDP timeouts; no formal-host HTTP 204 claim is made. This is a real self-test, not organic acquisition data.
-
-GSC sitemap submitted successfully and displayed Success / Last read Oct 15, 2026. Initial discovered count 0. URL Inspection for home and beginner guide: not indexed, URL unknown to Google. Both Request indexing operations returned Indexing requested / priority crawl queue. Screenshots gsc-sitemap-submitted.png, gsc-home-index-requested.png and gsc-core-inspection.png are local-only. Sitemap receipt, indexing request, discovery and actual indexing remain separate facts.
+All visits above are self-tests. Organic acquisition, ordinary reporting, indexing, impressions, clicks and revenue remain unestablished.

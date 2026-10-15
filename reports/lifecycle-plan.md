@@ -1,18 +1,12 @@
 # Lifecycle plan
 
-Start milestones from the first verified formal-domain launch, not the Pages deployment timestamp. The formal launch date remains unestablished.
+Formal host launch day: 2026-10-15 Asia/Shanghai; final acceptance COMPLETED. Milestones begin with the verified formal-domain release, not the initial Pages fallback deployment.
 
-| Milestone | Work |
-| --- | --- |
-| Day 3 | DNS/TLS, GSC sitemap retrieval, discovery/indexing checks; new Roblox snapshot |
-| Day 7 | GSC impressions/clicks/CTR/position and indexed URLs; assess query relevance |
-| Day 14 | Compare search demand and game activity; prioritize verified input evidence where demand supports it |
-| Day 28 | Evaluate maintenance cost and organic traction; expand only evidence-supported topics |
+| Milestone | China date | Work |
+| --- | --- | --- |
+| Day 3 | 2026-10-18 | DNS/TLS, sitemap discovery/indexing, fresh official Roblox snapshot |
+| Day 7 | 2026-10-22 | GSC impressions/clicks/CTR/position and indexed URLs; query relevance |
+| Day 14 | 2026-10-29 | Compare demand/game activity; prioritize attributable input evidence where demand supports it |
+| Day 28 | 2026-11-12 | Assess maintenance cost and actual organic traction; expand only supported topics |
 
-Never substitute another site's analytics. If demand, activity and organic traction deteriorate, stop low-return expansion while maintaining availability. Do not rebuild in response to short-term low traffic. Ads remain off until eligible and authorized.
-
-Scheduling awaits an actual formal launch date; no unattended job is claimed to exist.
-
-## Day 0 (preliminary): 15 October 2026
-
-Formal host HTTPS, all 21 sitemap pages, redirects, GSC sitemap Success and GA4 formal-path receipt passed on 15 October. Final public DNS consistency check remains open because some resolver pools still retain the removed DS. Once that gate passes, milestone dates in Asia/Shanghai are Day 3: 18 October; Day 7: 22 October; Day 14: 29 October; Day 28: 12 November. These are a saved review plan, not an unattended automation.
+This is a saved review plan. No recurring automation, reminder or unattended job is claimed. Never substitute another site's analytics. If demand/activity/traction deteriorates, stop low-return expansion while maintaining availability; do not rebuild over short-term low traffic. Ads remain off until eligible and authorized.

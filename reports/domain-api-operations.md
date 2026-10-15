@@ -44,3 +44,11 @@ The final formal HTTP pass covers all 21 sitemap URLs, metadata, robots, guide a
 GSC sitemap index submitted in the correct Domain Property; Success and today's Last read confirmed. Homepage and beginner-guide URL Inspection show not indexed/unknown to Google; their indexing requests were accepted into the priority crawl queue. No indexing, impressions, clicks or organic traffic claimed.
 
 Formal hostname analytics: before consent no gtag script; Accept loads only G-P1MXKVMQVT. Actual formal home and beginner-guide visits appear in property 559103339 Realtime pages as / and /guides/beginner-guide/, one view each in the observed snapshot. Formal CDP network capture timed out twice, so receipt was verified via the actual GA4 UI instead. Earlier Pages-specific HTTP 204 network proof is not relabeled as formal-host proof. All visits are self-tests.
+
+## Browser capture and cache correction recovered
+
+Reloaded the owned formal tab and recovered CDP. Actual formal home and beginner page_view requests returned HTTP 204, exact Measurement ID; sanitized ga4-formal-network-proof.json supersedes the temporary capture limitation. Formal 375×812 emulation on home/beginner/combat confirms no document overflow; cleared metrics and confirmed default 1280px. Pagefind content cache key now includes generated entry manifest, one focused regression added; 17 suites / 201 tests, build/lint/types and CI passed; deployed b70c6ce1728ff8699623f83e2de49cb3e4dbc739. Actual formal search returns four stamina results and correct fragment.
+
+## Final public DNS gate completed
+
+At 2026-10-15T05:24:53Z, Google and Cloudflare validating public resolver checks all passed (14/14), including no old DS, exact NS, apex/www A/AAAA and GSC TXT. Both checked registry delegations match the assigned Cloudflare pair. Evidence formal-domain-dns.json; earlier snapshots retain actual cache behavior. Optional Google official cache-flush UI attempt did not yield a verified completion and is not used as success evidence. No repeated NS/DS mutation or validation bypass. Enabled SITE_LAUNCHED=true only after the passing gate.
