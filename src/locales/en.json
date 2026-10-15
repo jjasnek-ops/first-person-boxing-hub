@@ -1,23 +1,20 @@
 {
   "$schema": "../../docs/home.schema.json",
   "site": {
-    "name": "Anvil Quest Wiki",
-    "shortName": "AQ Wiki",
-    "description": "Complete Anvil Quest wiki with boss guides, tier lists, codes, item locations, and beginner tips. Every guide carries a last-verified date.",
-    "tagline": "Your forge for everything Anvil Quest",
-    "legalNotice": "Anvil Quest Wiki is a fan-made community site. Not affiliated with or endorsed by the game developer."
+    "name": "First Person Boxing Hub",
+    "shortName": "FPB Hub",
+    "description": "Source-checked First Person Boxing guides for Roblox: beginner practice, combat fundamentals, platform support and code verification.",
+    "tagline": "Unofficial First Person Boxing Wiki, Controls & Beginner Guides",
+    "legalNotice": "Unofficial fan-made guide. Not affiliated with or endorsed by Roblox, Can You Box?, or the game's developer."
   },
   "nav": {
     "home": "Home",
-    "bosses": "Bosses",
-    "guides": "Guides",
-    "items": "Items",
-    "codes": "Codes",
     "toggleTheme": "Toggle theme",
     "menu": "Menu",
     "close": "Close",
     "search": "Search",
-    "language": "Language"
+    "language": "Language",
+    "guides": "Guides"
   },
   "search": {
     "placeholder": "Search the wiki...",
@@ -28,7 +25,7 @@
     "lastUpdated": "Last updated",
     "publishedOn": "Published",
     "noArticles": "No articles yet. Check back soon!",
-    "defaultListDescription": "Browse every {title} article — walkthroughs, tips, tier lists and up-to-date reference tables, all in one place.",
+    "defaultListDescription": "Browse source-checked guides, practical learning plans and platform notes for First Person Boxing on Roblox.",
     "relatedArticles": "Related Articles",
     "onThisPage": "On this page",
     "browseAll": "Browse all",
@@ -59,20 +56,8 @@
     },
     "codesFaq": [
       {
-        "question": "How do I redeem codes?",
-        "answer": "Open the game, click the settings gear in the top-right, paste your code into the Redeem Code field, and confirm. Codes are case-sensitive."
-      },
-      {
-        "question": "Why do codes stop working?",
-        "answer": "Codes expire on a schedule set by the developer (usually monthly or tied to update milestones), and some are one-per-account. This page is re-tested regularly."
-      },
-      {
-        "question": "How often are new codes released?",
-        "answer": "New codes typically arrive with each major game update. Bookmark this page and check back after every patch."
-      },
-      {
-        "question": "Do codes expire?",
-        "answer": "Yes — most codes have an expiry date, shown next to each code. Expired codes move to the expired table below."
+        "question": "Are there verified codes?",
+        "answer": "We have not verified a working code or a redemption interface. See the code-status guide for the evidence scope and date."
       }
     ],
     "possiblyOutdated": "This guide was last checked on",
@@ -85,7 +70,7 @@
     "sponsoredLabel": "Sponsored",
     "relatedVideos": "Related videos",
     "gallery": "Gallery",
-    "gameVersion": "Game version",
+    "gameVersion": "Checked",
     "allTags": "All Tags",
     "tagsIndexDescription": "Browse all articles by topic.",
     "articlesCount": "articles",
@@ -128,286 +113,177 @@
     "paginationAria": "Article pagination"
   },
   "overview": {
-    "bosses": {
-      "overviewTitle": "All Bosses",
-      "overviewDescription": "Complete strategy guides for every boss in Anvil Quest, including attack patterns, weaknesses, and recommended loadouts."
-    },
     "guides": {
-      "overviewTitle": "All Guides",
-      "overviewDescription": "In-depth tutorials covering progression, crafting, combat mechanics, and advanced strategies for Anvil Quest."
-    },
-    "items": {
-      "overviewTitle": "All Items",
-      "overviewDescription": "Comprehensive item database with locations, stats, rarity tiers, and crafting recipes."
-    },
-    "codes": {
-      "overviewTitle": "All Codes",
-      "overviewDescription": "Active Anvil Quest codes for free coins, gems, and exclusive items. Verified daily."
+      "overviewTitle": "First Person Boxing Guides",
+      "overviewDescription": "Start with the beginner guide, understand the official combat mechanics, check mobile support and verify code claims for the Roblox game by Can You Box?."
     }
   },
   "home": {
     "meta": {
-      "title": "Anvil Quest Wiki - Complete Boss Guides, Codes & Tier Lists",
-      "description": "The most complete Anvil Quest wiki. Boss strategies, active codes, item locations, tier lists, and beginner guides. Every page shows when it was last verified."
+      "title": "First Person Boxing Wiki & Beginner Guides | FPB Hub",
+      "description": "Learn First Person Boxing on Roblox with source-checked beginner and combat guides, mobile support notes and honest code-status checks."
     },
     "hero": {
-      "badge": "Fan-Made Community Wiki",
-      "title": "Anvil Quest Wiki",
-      "description": "Your complete guide to Anvil Quest. Boss strategies, active codes, item locations, tier lists, and everything you need to master the forge.",
-      "ctaPrimary": "Play Anvil Quest",
-      "ctaSecondary": "Browse Guides",
+      "badge": "ROBLOX / UNOFFICIAL FIELD GUIDE",
+      "title": "First Person Boxing Wiki",
+      "description": "Read the ring. Build your fundamentals. A focused guide to guards, slips, counters and stamina in the Roblox game by Can You Box?.",
+      "ctaPrimary": "Play on Roblox",
+      "ctaSecondary": "Explore the guides",
+      "image": "/images/arena.svg",
+      "imageAlt": "Original illustration of a boxing ring with red and blue corners; not a gameplay screenshot.",
+      "note": "PC · Mobile · Console — listed by the developer",
+      "verified": "Sources checked 15 October 2026",
       "videoId": ""
     },
-    "updates": {
-      "title": "Recent Updates"
-    },
     "start": {
-      "badge": "Start Here",
-      "title": "Your Anvil Quest Journey",
+      "badge": "YOUR FIRST ROUND",
+      "title": "Find your next move",
       "cards": [
         {
-          "number": "1",
-          "title": "Beginner Guide",
-          "description": "New to Anvil Quest? Start here with the essential mechanics, controls, and your first hour walkthrough.",
-          "icon": "lucide:book-open",
-          "href": "/guides/beginner-guide"
+          "number": "01",
+          "title": "Start boxing",
+          "description": "A simple practice plan for your first session.",
+          "icon": "lucide:flag",
+          "href": "/guides/beginner-guide/"
         },
         {
-          "number": "2",
-          "title": "Active Codes",
-          "description": "Redeem the latest codes for free coins, gems, and exclusive cosmetic items.",
-          "icon": "lucide:gift",
-          "href": "/codes"
+          "number": "02",
+          "title": "Understand combat",
+          "description": "Guards, slips, counters and stamina explained.",
+          "icon": "lucide:shield",
+          "href": "/guides/combat/"
         },
         {
-          "number": "3",
-          "title": "Boss Strategies",
-          "description": "Complete guides for every boss with attack patterns, weaknesses, and recommended loadouts.",
-          "icon": "lucide:swords",
-          "href": "/bosses"
+          "number": "03",
+          "title": "Play on mobile",
+          "description": "Official support, safe setup and troubleshooting.",
+          "icon": "lucide:smartphone",
+          "href": "/guides/mobile/"
         },
         {
-          "number": "4",
-          "title": "Weapon Tier List",
-          "description": "Ranking every weapon from S to C based on DPS, utility, and synergy.",
-          "icon": "lucide:list-ordered",
-          "href": "/guides/weapon-tier-list"
+          "number": "04",
+          "title": "Check code claims",
+          "description": "What we could verify, without made-up rewards.",
+          "icon": "lucide:search-check",
+          "href": "/guides/codes/"
         }
       ]
     },
+    "updates": {
+      "title": "The guidebook"
+    },
     "popular": {
-      "badge": "Trending Now",
-      "title": "Most Read This Week",
+      "badge": "START HERE",
+      "title": "Ring-side reference",
       "quickLinks": [
         {
-          "label": "Emberfang Boss Guide",
-          "href": "/bosses/emberfang"
+          "label": "Your first practice session",
+          "href": "/guides/beginner-guide/"
         },
         {
-          "label": "Best Weapons Tier List",
-          "href": "/guides/weapon-tier-list"
+          "label": "Why stamina matters",
+          "href": "/guides/combat/#how-should-you-manage-stamina"
         },
         {
-          "label": "Beginner Guide",
-          "href": "/guides/beginner-guide"
+          "label": "Android and iPhone setup",
+          "href": "/guides/mobile/"
         },
         {
-          "label": "All Active Codes",
-          "href": "/codes"
+          "label": "How we verify information",
+          "href": "/about/"
         }
       ]
     },
     "explore": {
-      "title": "Explore the Wiki",
-      "description": "Everything you need, organized by category. Pick a topic and dive in.",
+      "title": "Know what you are practicing",
+      "description": "The developer confirms the mechanics. Our drills show a way to learn them; they are editorial suggestions, not hidden game rules.",
       "modules": [
         {
           "order": 1,
-          "name": "Anvil Quest Codes",
-          "description": "Active codes for free coins, gems, and exclusive items. Updated daily.",
-          "href": "/codes",
-          "displayType": "badge-list",
+          "name": "Build a reliable foundation",
+          "description": "Start with one skill at a time in AI practice, which the developer lists as an available mode.",
+          "href": "/guides/beginner-guide/",
+          "displayType": "steps",
           "highlights": [
             {
-              "label": "HEARTHFIRE-2026",
-              "detail": "+600 Gold · expires Nov 30 (extended)",
-              "badge": "Active"
+              "label": "01",
+              "detail": "Identify your current input prompts",
+              "badge": "Setup"
             },
             {
-              "label": "ASHENKEEP",
-              "detail": "Ashen Keep cosmetic set",
-              "badge": "Active"
+              "label": "02",
+              "detail": "Practice head and body defense separately",
+              "badge": "Defense"
             },
             {
-              "label": "NEWPLAYER",
-              "detail": "Starter bundle (new accounts)",
-              "badge": "Active"
+              "label": "03",
+              "detail": "Watch stamina while you attack and reset",
+              "badge": "Pacing"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Boss Strategies",
-          "description": "Complete guides for every boss with attack patterns and weaknesses.",
-          "href": "/bosses",
+          "name": "Four ideas for every round",
+          "description": "A quick route through the officially described combat systems.",
+          "href": "/guides/combat/",
           "displayType": "labeled-cards",
           "highlights": [
             {
-              "label": "Emberfang",
-              "detail": "Frost warden, early-game gatekeeper"
+              "label": "Guard",
+              "detail": "Protect head and body"
             },
             {
-              "label": "Stormcaller",
-              "detail": "Fire titan, mid-game DPS check"
+              "label": "Slip",
+              "detail": "Learn defensive movement"
             },
             {
-              "label": "Voidking",
-              "detail": "Final boss, requires full prep"
-            }
-          ]
-        },
-        {
-          "order": 3,
-          "name": "Progression Guides",
-          "description": "Leveling routes, class builds, and endgame preparation.",
-          "href": "/guides",
-          "displayType": "steps",
-          "highlights": [
-            {
-              "label": "1",
-              "detail": "Pick a starting class"
+              "label": "Counter",
+              "detail": "Recognize an opening"
             },
             {
-              "label": "2",
-              "detail": "Clear the tutorial forge"
-            },
-            {
-              "label": "3",
-              "detail": "Unlock the Shattered Isles"
-            },
-            {
-              "label": "4",
-              "detail": "Defeat your first world boss"
-            }
-          ]
-        },
-        {
-          "order": 4,
-          "name": "Weapon Tier List",
-          "description": "Ranking every weapon from S to C based on DPS, utility, and synergy.",
-          "href": "/guides/weapon-tier-list",
-          "displayType": "ranked-grid",
-          "highlights": [
-            {
-              "label": "S",
-              "detail": "Voidforge Blade, Stormcaller"
-            },
-            {
-              "label": "A",
-              "detail": "Emberclaw, Frostpike"
-            },
-            {
-              "label": "B",
-              "detail": "Ironwood Bow, Mace of Dawn"
-            },
-            {
-              "label": "C",
-              "detail": "Starter weapons"
-            }
-          ]
-        },
-        {
-          "order": 5,
-          "name": "Update History",
-          "description": "Major patches and events, newest first.",
-          "href": "/recent",
-          "displayType": "timeline",
-          "highlights": [
-            {
-              "label": "v2.5",
-              "detail": "New raid: Shadowforge released",
-              "badge": "Latest"
-            },
-            {
-              "label": "v2.4",
-              "detail": "Rebalanced all S-tier weapons"
-            },
-            {
-              "label": "v2.3",
-              "detail": "Added 3 new bosses"
-            },
-            {
-              "label": "v2.2",
-              "detail": "Launched season pass system"
-            }
-          ]
-        },
-        {
-          "order": 6,
-          "name": "Video Guides",
-          "description": "Watch the best Anvil Quest walkthroughs and boss fights.",
-          "href": "/guides",
-          "displayType": "video-grid",
-          "highlights": [
-            {
-              "title": "Beginner Walkthrough",
-              "youtubeId": "dQw4w9WgXcQ",
-              "duration": "12:34"
-            },
-            {
-              "title": "All Bosses Ranked",
-              "youtubeId": "aaaaaaaaaaa",
-              "duration": "18:42"
-            },
-            {
-              "title": "Speedrun Guide",
-              "youtubeId": "bbbbbbbbbbb",
-              "duration": "25:10"
-            },
-            {
-              "title": "Hidden Secrets",
-              "youtubeId": "ccccccccccc",
-              "duration": "9:15"
+              "label": "Stamina",
+              "detail": "Tiredness slows you down"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Anvil Quest.",
+      "title": "First Person Boxing FAQ",
+      "description": "Quick answers from the official Roblox listing, checked 15 October 2026.",
       "items": [
         {
-          "question": "What is Anvil Quest?",
-          "answer": "Anvil Quest is a fantasy RPG on Roblox where you play as a blacksmith apprentice forging weapons and battling bosses across the Shattered Isles. It launched in January 2026 and has over 12 million visits."
+          "question": "What is First Person Boxing?",
+          "answer": "It is a Roblox boxing experience by Can You Box? with a first-person view, player fights, AI practice, different guards, slips, counters and stamina management."
         },
         {
-          "question": "Which class should beginners pick in Anvil Quest?",
-          "answer": "Warrior is the most beginner-friendly class thanks to high HP and simple mechanics. Once you understand the game, Rogue offers the highest damage output for experienced players."
+          "question": "Does it support mobile and console?",
+          "answer": "The official description lists PC, Mobile and Console. This does not confirm every device or controller model; check whether the official Roblox listing lets you join on your device."
         },
         {
-          "question": "How do I redeem codes in Anvil Quest?",
-          "answer": "Open the game, click the settings gear in the top-right, paste your code into the 'Redeem Code' field, and hit confirm. Codes are case-sensitive."
+          "question": "Can I practice against AI?",
+          "answer": "Yes. The developer explicitly lists AI practice as well as fighting other players. We have not verified the current menu path or difficulty settings."
         },
         {
-          "question": "Is Anvil Quest free to play?",
-          "answer": "Yes, Anvil Quest is completely free on Roblox. There are optional cosmetic microtransactions, but they do not affect gameplay balance."
+          "question": "Are there working codes?",
+          "answer": "No working code has been verified by this site as of 15 October 2026. The reviewed official description does not document a redemption system; that alone does not prove no system exists."
         },
         {
-          "question": "How often does Anvil Quest update?",
-          "answer": "Forge Studios releases major content updates roughly every two weeks, with smaller hotfixes in between. New bosses and codes are typically added with each major patch."
+          "question": "Where is the exact controls table?",
+          "answer": "Specific keyboard bindings and touch-button positions are still being verified. We will publish a controls reference when there is reliable game-specific evidence."
         }
       ]
     },
     "closingCta": {
-      "title": "Ready to Master the Forge?",
-      "description": "Bookmark this wiki and check back daily for new codes, boss guides, and tier list updates.",
-      "primary": "Play Anvil Quest",
-      "secondary": "Join Our Discord"
+      "title": "Take it one round at a time.",
+      "description": "Use AI practice to learn a single mechanic, then bring it into your next player match.",
+      "primary": "Play First Person Boxing",
+      "secondary": "Read the beginner guide"
     }
   },
   "footer": {
-    "playGame": "Play Anvil Quest",
+    "playGame": "Play First Person Boxing",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
     "officialTwitter": "Official Twitter",
@@ -418,8 +294,8 @@
     "termsOfService": "Terms of Service",
     "copyright": "Copyright",
     "contact": "Contact",
-    "copyrightText": "© 2026 Anvil Quest Wiki. Fan-made, not affiliated with Forge Studios.",
-    "community": "Community",
+    "copyrightText": "© 2026 First Person Boxing Hub. Unofficial fan-made guide.",
+    "community": "Game & resources",
     "legal": "Legal"
   }
 }

@@ -1,0 +1,34 @@
+{
+  "id": "61f63b85-3259-43ed-910e-2004c829062e",
+  "name": "first-person-boxing-hub",
+  "subdomain": "first-person-boxing-hub.pages.dev",
+  "source": {
+    "type": "github",
+    "config": {
+      "owner": "jjasnek-ops",
+      "owner_id": "328482071",
+      "repo_name": "first-person-boxing-hub",
+      "repo_id": "1420059223",
+      "production_branch": "main",
+      "pr_comments_enabled": true,
+      "deployments_enabled": true,
+      "production_deployments_enabled": true,
+      "preview_deployment_setting": "none",
+      "preview_branch_includes": [
+        "*"
+      ],
+      "preview_branch_excludes": [],
+      "path_includes": [
+        "*"
+      ],
+      "path_excludes": []
+    }
+  },
+  "build_config": {
+    "build_command": "pnpm build",
+    "destination_dir": "dist",
+    "root_dir": "",
+    "web_analytics_tag": null,
+    "web_analytics_token": null
+  }
+}

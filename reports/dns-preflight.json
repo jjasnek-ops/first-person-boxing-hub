@@ -1,0 +1,506 @@
+{
+  "checked_at": "2026-10-15T01:58:04.381042+00:00",
+  "domain": "firstpersonboxinghub.wiki.",
+  "records": [
+    {
+      "source": "https://dns.google/resolve?name=wiki&type=NS&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "wiki.",
+            "type": 2
+          }
+        ],
+        "Answer": [
+          {
+            "name": "wiki.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "y.nic.wiki."
+          },
+          {
+            "name": "wiki.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "a.nic.wiki."
+          },
+          {
+            "name": "wiki.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "z.nic.wiki."
+          },
+          {
+            "name": "wiki.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "c.nic.wiki."
+          },
+          {
+            "name": "wiki.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "b.nic.wiki."
+          },
+          {
+            "name": "wiki.",
+            "type": 2,
+            "TTL": 21600,
+            "data": "x.nic.wiki."
+          },
+          {
+            "name": "wiki.",
+            "type": 46,
+            "TTL": 21600,
+            "data": "ns 8 1 172800 1792723188 1791511262 57159 wiki. gbh31rW+nZFC23sfrOjn3zOqFebTnA5WpETQSc3w3dx9LZ1MRQ4iiov3b1RkQRkvVaIZQNrM0o9Yz7gjh+FzAp2MZDkWRRQQ7OU5pXnpc1VCjF28OTGecptdk1CGLfJlqZ0UOOKCAliQMZoU+3Jcdjx9mD4sjussrqPpCrRwuOEM5YVY+lIb7XIOEXSqbxIR31VoxM0qTkaZY4NqUB2tew=="
+          },
+          {
+            "name": "wiki.",
+            "type": 46,
+            "TTL": 21600,
+            "data": "ns 13 1 172800 1792723188 1791511262 56120 wiki. kDf7xPtWJWfMq/EtUPA3UFamJdK/E4Cbjo79sYh6U37WOQ4xxgn3lVFUt0mz8IILT0X9uSCpz9H2tckGt9MTlg=="
+          }
+        ],
+        "Comment": "Response from 2610:a1:1076::1:82."
+      }
+    },
+    {
+      "source": "https://dns.google/resolve?name=y.nic.wiki.&type=A&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "y.nic.wiki.",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "y.nic.wiki.",
+            "type": 1,
+            "TTL": 21600,
+            "data": "156.154.173.82"
+          },
+          {
+            "name": "y.nic.wiki.",
+            "type": 46,
+            "TTL": 21600,
+            "data": "a 8 3 172800 1793030709 1791818690 58785 nic.wiki. PRWbAle2Pj17yUqdH2FjCGJkjcYbNEyNw8hVXosIx/7N6im4Sr9uMBs6NDh4TooN5OV0RP9AWWspsG6KqCgEQqsUJcOLcFhDVj5mxU8P82EjIw7wQz0awyHFQyZVJq+3iOjRUV4XWV5rgnUmPRHGF2Dm1p8KZl6nF0/BE0KQDqCh1PpJYIAqEy19TktlV1mbk0J9eDZ2q7Zlcv6SEEIumw=="
+          },
+          {
+            "name": "y.nic.wiki.",
+            "type": 46,
+            "TTL": 21600,
+            "data": "a 13 3 172800 1793030709 1791818690 37187 nic.wiki. HgWAC4E8EeVOSt2ZKQymWKkhK3CU1qqe+PZgBZCnHfy30CLncrwebaA4SXa5/rJCTrCThsixj0DnViQapkDkow=="
+          }
+        ],
+        "Comment": "Response from 37.209.192.10."
+      }
+    },
+    {
+      "name": "firstpersonboxinghub.wiki.",
+      "type": "DS",
+      "server": "156.154.173.82",
+      "transport": "UDP",
+      "rcode": "NOERROR",
+      "authoritative": true,
+      "answer": [
+        "firstpersonboxinghub.wiki. 3600 IN DS 63051 13 2 b59b0a89bbaa94417c436484408df8c27ca0145a37f03a7ef2819097bad69e25",
+        "firstpersonboxinghub.wiki. 3600 IN RRSIG DS 8 2 3600 20261028204324 20261015003329 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRp HV0uril0Y+9AmFKLP3I6RZ3LT8znAnLp NfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7 u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1U qpXNk6GO7h43u+PqgqXk/GxwW/GigpsF 0p7OFlT1SamEo9PTyfREemYe/F7V7BQF oiE6uSE6TlG0uOfb2udjdw==\nfirstpersonboxinghub.wiki. 3600 IN RRSIG DS 13 2 3600 20261028204324 20261015003329 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQy urcUQFRLJmR/HqyhK5tpVdgaROtEz7zH T99G5NYjucn0q0p/p2nfwQ=="
+      ],
+      "authority": [
+        "wiki. 172800 IN NS a.nic.wiki.\nwiki. 172800 IN NS b.nic.wiki.\nwiki. 172800 IN NS c.nic.wiki.\nwiki. 172800 IN NS x.nic.wiki.\nwiki. 172800 IN NS y.nic.wiki.\nwiki. 172800 IN NS z.nic.wiki.",
+        "wiki. 172800 IN RRSIG NS 8 1 172800 20261023023948 20261009020102 57159 wiki. gbh31rW+nZFC23sfrOjn3zOqFebTnA5W pETQSc3w3dx9LZ1MRQ4iiov3b1RkQRkv VaIZQNrM0o9Yz7gjh+FzAp2MZDkWRRQQ 7OU5pXnpc1VCjF28OTGecptdk1CGLfJl qZ0UOOKCAliQMZoU+3Jcdjx9mD4sjuss rqPpCrRwuOEM5YVY+lIb7XIOEXSqbxIR 31VoxM0qTkaZY4NqUB2tew==\nwiki. 172800 IN RRSIG NS 13 1 172800 20261023023948 20261009020102 56120 wiki. kDf7xPtWJWfMq/EtUPA3UFamJdK/E4Cb jo79sYh6U37WOQ4xxgn3lVFUt0mz8IIL T0X9uSCpz9H2tckGt9MTlg=="
+      ]
+    },
+    {
+      "name": "firstpersonboxinghub.wiki.",
+      "type": "NS",
+      "server": "156.154.173.82",
+      "transport": "UDP",
+      "rcode": "NOERROR",
+      "authoritative": false,
+      "answer": [],
+      "authority": [
+        "firstpersonboxinghub.wiki. 3600 IN NS launch1.spaceship.net.\nfirstpersonboxinghub.wiki. 3600 IN NS launch2.spaceship.net.",
+        "firstpersonboxinghub.wiki. 3600 IN DS 63051 13 2 b59b0a89bbaa94417c436484408df8c27ca0145a37f03a7ef2819097bad69e25",
+        "firstpersonboxinghub.wiki. 3600 IN RRSIG DS 8 2 3600 20261028204324 20261015003329 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRp HV0uril0Y+9AmFKLP3I6RZ3LT8znAnLp NfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7 u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1U qpXNk6GO7h43u+PqgqXk/GxwW/GigpsF 0p7OFlT1SamEo9PTyfREemYe/F7V7BQF oiE6uSE6TlG0uOfb2udjdw==\nfirstpersonboxinghub.wiki. 3600 IN RRSIG DS 13 2 3600 20261028204324 20261015003329 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQy urcUQFRLJmR/HqyhK5tpVdgaROtEz7zH T99G5NYjucn0q0p/p2nfwQ=="
+      ]
+    },
+    {
+      "source": "https://dns.google/resolve?name=a.nic.wiki.&type=A&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "a.nic.wiki.",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "a.nic.wiki.",
+            "type": 1,
+            "TTL": 21600,
+            "data": "37.209.192.10"
+          },
+          {
+            "name": "a.nic.wiki.",
+            "type": 46,
+            "TTL": 21600,
+            "data": "a 13 3 172800 1793030709 1791818690 37187 nic.wiki. W2szMIh1qc13cbBv5COQ5Tw/Ky4084huXrE8Gcv8fk9TKdSmKo+EVearV/8OFeucu+krxVv2Asi3NgLfMu0HhQ=="
+          },
+          {
+            "name": "a.nic.wiki.",
+            "type": 46,
+            "TTL": 21600,
+            "data": "a 8 3 172800 1793030709 1791818690 58785 nic.wiki. b3rUKCTjEqSYExN9qMoawNj8D6VX0dFpsB+N0GGQztGf0Cm16x14FggHe4YUlCgskDOdc9X+NEs95/GIY7D4jsAnNHbtowA75eCo3SfSpjGZ8TfBuBHwsPUa2P2V1UI78sNFg2FvKoSr1AjhbjiemSZ7JlF+FpgV1aGU5HBVuKIZv7Bmjne1xfVLNw5fzvPdqnEr94XER/DmnDfuLfoPUA=="
+          }
+        ],
+        "Comment": "Response from 37.209.192.10."
+      }
+    },
+    {
+      "name": "firstpersonboxinghub.wiki.",
+      "type": "DS",
+      "server": "37.209.192.10",
+      "transport": "UDP",
+      "rcode": "NOERROR",
+      "authoritative": true,
+      "answer": [
+        "firstpersonboxinghub.wiki. 3600 IN DS 63051 13 2 b59b0a89bbaa94417c436484408df8c27ca0145a37f03a7ef2819097bad69e25",
+        "firstpersonboxinghub.wiki. 3600 IN RRSIG DS 8 2 3600 20261028204324 20261015003329 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRp HV0uril0Y+9AmFKLP3I6RZ3LT8znAnLp NfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7 u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1U qpXNk6GO7h43u+PqgqXk/GxwW/GigpsF 0p7OFlT1SamEo9PTyfREemYe/F7V7BQF oiE6uSE6TlG0uOfb2udjdw==\nfirstpersonboxinghub.wiki. 3600 IN RRSIG DS 13 2 3600 20261028204324 20261015003329 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQy urcUQFRLJmR/HqyhK5tpVdgaROtEz7zH T99G5NYjucn0q0p/p2nfwQ=="
+      ],
+      "authority": []
+    },
+    {
+      "name": "firstpersonboxinghub.wiki.",
+      "type": "NS",
+      "server": "37.209.192.10",
+      "transport": "UDP",
+      "rcode": "NOERROR",
+      "authoritative": false,
+      "answer": [],
+      "authority": [
+        "firstpersonboxinghub.wiki. 3600 IN NS launch1.spaceship.net.\nfirstpersonboxinghub.wiki. 3600 IN NS launch2.spaceship.net.",
+        "firstpersonboxinghub.wiki. 3600 IN DS 63051 13 2 b59b0a89bbaa94417c436484408df8c27ca0145a37f03a7ef2819097bad69e25",
+        "firstpersonboxinghub.wiki. 3600 IN RRSIG DS 8 2 3600 20261028204324 20261015003329 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRp HV0uril0Y+9AmFKLP3I6RZ3LT8znAnLp NfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7 u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1U qpXNk6GO7h43u+PqgqXk/GxwW/GigpsF 0p7OFlT1SamEo9PTyfREemYe/F7V7BQF oiE6uSE6TlG0uOfb2udjdw==\nfirstpersonboxinghub.wiki. 3600 IN RRSIG DS 13 2 3600 20261028204324 20261015003329 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQy urcUQFRLJmR/HqyhK5tpVdgaROtEz7zH T99G5NYjucn0q0p/p2nfwQ=="
+      ]
+    },
+    {
+      "source": "recursive-cache",
+      "server": "1.1.1.1",
+      "error": "ConnectionResetError"
+    },
+    {
+      "source": "recursive-cache",
+      "server": "8.8.8.8",
+      "rcode": "NOERROR",
+      "answer": [
+        "firstpersonboxinghub.wiki. 3600 IN DS 63051 13 2 b59b0a89bbaa94417c436484408df8c27ca0145a37f03a7ef2819097bad69e25",
+        "firstpersonboxinghub.wiki. 3600 IN RRSIG DS 13 2 3600 20261028204324 20261015003329 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQy urcUQFRLJmR/HqyhK5tpVdgaROtEz7zH T99G5NYjucn0q0p/p2nfwQ==\nfirstpersonboxinghub.wiki. 3600 IN RRSIG DS 8 2 3600 20261028204324 20261015003329 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRp HV0uril0Y+9AmFKLP3I6RZ3LT8znAnLp NfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7 u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1U qpXNk6GO7h43u+PqgqXk/GxwW/GigpsF 0p7OFlT1SamEo9PTyfREemYe/F7V7BQF oiE6uSE6TlG0uOfb2udjdw=="
+      ],
+      "authority": []
+    },
+    {
+      "source": "https://dns.google/resolve?name=firstpersonboxinghub.wiki.&type=DS&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 43
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 43,
+            "TTL": 3600,
+            "data": "63051 13 2 B59B0A89BBAA94417C436484408DF8C27CA0145A37F03A7EF2819097BAD69E25"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 3600,
+            "data": "ds 13 2 3600 1793220204 1792024409 56120 wiki. JScxb1un5XQZnWknlEjReASW9Pim+jQyurcUQFRLJmR/HqyhK5tpVdgaROtEz7zHT99G5NYjucn0q0p/p2nfwQ=="
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 3600,
+            "data": "ds 8 2 3600 1793220204 1792024409 57159 wiki. UOQZY/741Ji4lAgFhRCb0ULzfS8XKhRpHV0uril0Y+9AmFKLP3I6RZ3LT8znAnLpNfjCZy7SQMnP2D0mhfFdepvgqT1nV6/7u4c2qSMIHDRTqiMqxgZpy/RlJFHLYt1UqpXNk6GO7h43u+PqgqXk/GxwW/GigpsF0p7OFlT1SamEo9PTyfREemYe/F7V7BQFoiE6uSE6TlG0uOfb2udjdw=="
+          }
+        ],
+        "Comment": "Response from 2610:a1:1074::1:82."
+      }
+    },
+    {
+      "source": "https://dns.google/resolve?name=firstpersonboxinghub.wiki.&type=NS&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 2
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 2,
+            "TTL": 1800,
+            "data": "launch2.spaceship.net."
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 2,
+            "TTL": 1800,
+            "data": "launch1.spaceship.net."
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 1800,
+            "data": "ns 13 2 1800 1793232000 1791417600 46327 firstpersonboxinghub.wiki. nW4bzCjFJCR6JCBOhLEsC8KEhnkuiC7bLyTnm6DnY5SvdS9v/OmILiXcLoB3ySyZtalZh/OxPN3+cp/g3WQYNg=="
+          }
+        ],
+        "Comment": "Response from 162.159.26.38."
+      }
+    },
+    {
+      "source": "https://dns.google/resolve?name=firstpersonboxinghub.wiki.&type=MX&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 15
+          }
+        ],
+        "Authority": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 6,
+            "TTL": 1800,
+            "data": "launch1.spaceship.net. support.spaceship.com. 1792028005 43200 3600 604800 3600"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 1800,
+            "data": "soa 13 2 1800 1793232000 1791417600 46327 firstpersonboxinghub.wiki. wlB3LW7+lMUZ81ypzWPjxSJuvUrjTGGVzLVvpoFpDGYHqjb29ee6XTN7HYeaSBeXPCu98EtE8KaEAWcfHfzRfg=="
+          },
+          {
+            "name": "ik6cjtn1ji26t1bul4lha81l1ffhuhqi.firstpersonboxinghub.wiki.",
+            "type": 50,
+            "TTL": 1800,
+            "data": "1 0 0 - IK6CJTN1JI26T1BUL4LHA81L1FFHUHQJ A NS SOA RRSIG DNSKEY NSEC3PARAM"
+          },
+          {
+            "name": "ik6cjtn1ji26t1bul4lha81l1ffhuhqi.firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 1800,
+            "data": "nsec3 13 3 1800 1793232000 1791417600 46327 firstpersonboxinghub.wiki. S5poK+2pItEsETWREmSlfYFWgtFEcQNctjp+gYGI4Hu7jCXqakTXiKorAufAdstgg/NmAugCTKZQqj10iR6qhg=="
+          }
+        ],
+        "Comment": "Response from 162.159.26.38."
+      }
+    },
+    {
+      "source": "https://dns.google/resolve?name=firstpersonboxinghub.wiki.&type=TXT&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 16
+          }
+        ],
+        "Authority": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 6,
+            "TTL": 1800,
+            "data": "launch1.spaceship.net. support.spaceship.com. 1792028005 43200 3600 604800 3600"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 1800,
+            "data": "soa 13 2 1800 1793232000 1791417600 46327 firstpersonboxinghub.wiki. osOPA5Y2LBeU38+O4qi63ZvaWkvqKcW05txJQ4O9f+CtJiUkoymK5BQW717aj+Elyo75bpgrH0oc3is3zmVztQ=="
+          },
+          {
+            "name": "ik6cjtn1ji26t1bul4lha81l1ffhuhqi.firstpersonboxinghub.wiki.",
+            "type": 50,
+            "TTL": 1800,
+            "data": "1 0 0 - IK6CJTN1JI26T1BUL4LHA81L1FFHUHQJ A NS SOA RRSIG DNSKEY NSEC3PARAM"
+          },
+          {
+            "name": "ik6cjtn1ji26t1bul4lha81l1ffhuhqi.firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 1800,
+            "data": "nsec3 13 3 1800 1793232000 1791417600 46327 firstpersonboxinghub.wiki. OGrdgoNVU3O7yOTnbNVDBbFbsk5FO/0SRf8fEcXgmSvXoJd7sQlb4Jumm9vJmfQ4sg/9OV8HZ3TOxSgqxOUftQ=="
+          }
+        ],
+        "Comment": "Response from 162.159.27.32."
+      }
+    },
+    {
+      "source": "https://dns.google/resolve?name=firstpersonboxinghub.wiki.&type=A&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 1
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 1,
+            "TTL": 300,
+            "data": "34.216.117.25"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 1,
+            "TTL": 300,
+            "data": "54.149.79.189"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 300,
+            "data": "a 13 2 300 1793232000 1791417600 46327 firstpersonboxinghub.wiki. FRjFennimxSIS26mRs/q2nErrIW4KFabp8hop7ybbqxjTWIjSFxKsO35DMOL14ie3sjVQM5bDSSyfiPrXAOwLA=="
+          }
+        ],
+        "Comment": "Response from 162.159.27.32."
+      }
+    },
+    {
+      "source": "https://dns.google/resolve?name=firstpersonboxinghub.wiki.&type=AAAA&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 28
+          }
+        ],
+        "Authority": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 6,
+            "TTL": 1800,
+            "data": "launch1.spaceship.net. support.spaceship.com. 1792028005 43200 3600 604800 3600"
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 1800,
+            "data": "soa 13 2 1800 1793232000 1791417600 46327 firstpersonboxinghub.wiki. Aw00DrcP1cL6xUiYgNnIQIrQR7UQWgJWKcv1urdRvTg3MmGn2hMDdy9d55Ggb2hlMNCOcsbo/NvVPF42p1k30Q=="
+          },
+          {
+            "name": "ik6cjtn1ji26t1bul4lha81l1ffhuhqi.firstpersonboxinghub.wiki.",
+            "type": 50,
+            "TTL": 1800,
+            "data": "1 0 0 - IK6CJTN1JI26T1BUL4LHA81L1FFHUHQJ A NS SOA RRSIG DNSKEY NSEC3PARAM"
+          },
+          {
+            "name": "ik6cjtn1ji26t1bul4lha81l1ffhuhqi.firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 1800,
+            "data": "nsec3 13 3 1800 1793232000 1791417600 46327 firstpersonboxinghub.wiki. mTJ/gcgTQUwUafqFA12avdh/1hFKO/3mmk7hXOL4nUV0OYDGQ/d9qwiiyuQf3bTmu2c/YMy4G1kuSDGhfuecdA=="
+          }
+        ],
+        "Comment": "Response from 162.159.26.38."
+      }
+    },
+    {
+      "source": "https://dns.google/resolve?name=firstpersonboxinghub.wiki.&type=DNSKEY&do=true",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 48
+          }
+        ],
+        "Answer": [
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 48,
+            "TTL": 3600,
+            "data": "256 3 13 gUttmBhT2YUjkX2PGQQ53g9BMW4nRN7nJXWCa8S+fnTdJ4CK8LXFbS6OW6Zq5O3kluHAUt87R6PZ67AjeigxHA=="
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 48,
+            "TTL": 3600,
+            "data": "257 3 13 VvwrVe6L7QyPn1wvaX2krnLb9IzzWzIu9Qu3ctXAcPpNVpbdl0b05AmJGm2blPCpCpQkUELKqRqY9AKnpzSb/g=="
+          },
+          {
+            "name": "firstpersonboxinghub.wiki.",
+            "type": 46,
+            "TTL": 3600,
+            "data": "dnskey 13 2 3600 1793232000 1791417600 63051 firstpersonboxinghub.wiki. 27aTJM8HLHmEYvpc2nZDZdnd57zw3UG3HlcshofXyPcpy1/WHj+mJ8WyRajUI3NQPAY0wvGQrfBDED989zQlAg=="
+          }
+        ],
+        "Comment": "Response from 162.159.26.38."
+      }
+    }
+  ]
+}

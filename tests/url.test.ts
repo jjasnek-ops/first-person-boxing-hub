@@ -17,6 +17,10 @@ import {
 
 describe('url helpers', () => {
   describe('localizePath', () => {
+    it('normalizes the pathname without changing fragment or query targets', () => {
+      expect(localizePath('/guides/combat#stamina', 'en')).toBe('/guides/combat/#stamina');
+      expect(localizePath('/guides/combat/?mode=quick#stamina', 'en')).toBe('/guides/combat/?mode=quick#stamina');
+    });
     it('returns the path unchanged for the default locale (en)', () => {
       expect(localizePath('/bosses', 'en')).toBe('/bosses/');
       expect(localizePath('/bosses/emberfang', 'en')).toBe('/bosses/emberfang/');

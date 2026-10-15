@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing",
+    "collected_at": "2026-10-15T02:09:58.389534+00:00",
+    "file": "research\\raw\\google-first-person-boxing.html",
+    "status": 200,
+    "query": "first person boxing",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20wiki",
+    "collected_at": "2026-10-15T02:10:01.782344+00:00",
+    "file": "research\\raw\\google-first-person-boxing-wiki.html",
+    "status": 200,
+    "query": "first person boxing wiki",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20roblox",
+    "collected_at": "2026-10-15T02:10:05.117377+00:00",
+    "file": "research\\raw\\google-first-person-boxing-roblox.html",
+    "status": 200,
+    "query": "first person boxing roblox",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20guide",
+    "collected_at": "2026-10-15T02:10:08.135733+00:00",
+    "file": "research\\raw\\google-first-person-boxing-guide.html",
+    "status": 200,
+    "query": "first person boxing guide",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20codes",
+    "collected_at": "2026-10-15T02:10:12.019226+00:00",
+    "file": "research\\raw\\google-first-person-boxing-codes.html",
+    "status": 200,
+    "query": "first person boxing codes",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20controls",
+    "collected_at": "2026-10-15T02:10:13.139104+00:00",
+    "file": "research\\raw\\google-first-person-boxing-controls.html",
+    "status": 200,
+    "query": "first person boxing controls",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20mobile",
+    "collected_at": "2026-10-15T02:10:14.257805+00:00",
+    "file": "research\\raw\\google-first-person-boxing-mobile.html",
+    "status": 200,
+    "query": "first person boxing mobile",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20game%20pc",
+    "collected_at": "2026-10-15T02:10:18.523756+00:00",
+    "file": "research\\raw\\google-first-person-boxing-game-pc.html",
+    "status": 200,
+    "query": "first person boxing game pc",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20game%20android",
+    "collected_at": "2026-10-15T02:10:19.883434+00:00",
+    "file": "research\\raw\\google-first-person-boxing-game-android.html",
+    "status": 200,
+    "query": "first person boxing game android",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20beginner%20guide",
+    "collected_at": "2026-10-15T02:10:21.036958+00:00",
+    "file": "research\\raw\\google-first-person-boxing-beginner-guide.html",
+    "status": 200,
+    "query": "first person boxing beginner guide",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20combat",
+    "collected_at": "2026-10-15T02:10:22.706851+00:00",
+    "file": "research\\raw\\google-first-person-boxing-combat.html",
+    "status": 200,
+    "query": "first person boxing combat",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  },
+  {
+    "url": "https://www.google.com/search?hl=en&gl=us&num=10&q=first%20person%20boxing%20training",
+    "collected_at": "2026-10-15T02:10:23.976264+00:00",
+    "file": "research\\raw\\google-first-person-boxing-training.html",
+    "status": 200,
+    "query": "first person boxing training",
+    "rank_status": "UNVERIFIED",
+    "heading_count": 0,
+    "blocked": false
+  }
+]

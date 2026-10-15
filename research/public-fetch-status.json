@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://www.firstpersonboxing.wiki/sitemap.xml",
+    "collected_at": "2026-10-15T02:10:25.083413+00:00",
+    "file": "research\\raw\\competitor-sitemap.xml",
+    "status": 200
+  },
+  {
+    "url": "https://www.firstpersonboxing.wiki/",
+    "collected_at": "2026-10-15T02:10:25.083879+00:00",
+    "file": "research\\raw\\competitor-home.html",
+    "status": 200
+  },
+  {
+    "url": "https://roterminal.co/g/10768418427-first-person-boxing",
+    "collected_at": "2026-10-15T02:10:25.084225+00:00",
+    "file": "research\\raw\\roterminal.html",
+    "status": 200
+  },
+  {
+    "url": "https://trends.google.com/trends/explore?date=now%207-d&geo=US&q=first%20person%20boxing",
+    "collected_at": "2026-10-15T02:10:26.116339+00:00",
+    "file": "research\\raw\\trends.html",
+    "status": null,
+    "error": "HTTPError"
+  }
+]

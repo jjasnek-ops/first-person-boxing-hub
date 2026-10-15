@@ -300,8 +300,7 @@ const privacyLabel = consent?.privacyLabel ?? footerStrings.privacyPolicy ?? 'Pr
         } catch (e) {
           /* storage unavailable */
         }
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (stored === 'dark' || stored === 'black' || (!stored && prefersDark)) {
+        if (stored === 'dark' || stored === 'black' || !stored) {
           document.documentElement.classList.add('dark');
           if (stored === 'black') document.documentElement.classList.add('black');
         }

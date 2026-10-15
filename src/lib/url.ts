@@ -12,14 +12,18 @@ import { landingLinkEnabled } from '~/config/project';
 /** Build a path with the locale prefix applied (or none for default locale). */
 export function localizePath(path: string, locale: Locale): string {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  // Normalize the pathname only; a slash after a fragment changes its target.
+  const suffixStart = cleanPath.search(/[?#]/);
+  const pathname = suffixStart < 0 ? cleanPath : cleanPath.slice(0, suffixStart);
+  const suffix = suffixStart < 0 ? '' : cleanPath.slice(suffixStart);
   // trailingSlash:'always' — every page URL ends with "/" (Cloudflare Pages
   // serves directory builds that way; canonical/sitemap/internal links must
   // match or every page 308s once for Google). Callers pass slash-free paths;
   // callers that already end with "/" are normalized, not double-slashed.
-  const slashed = cleanPath === '/' ? '/' : `${cleanPath.replace(/\/+$/, '')}/`;
-  if (locale === defaultLocale) return slashed;
-  if (cleanPath === '/') return `/${locale}/`;
-  return `/${locale}${slashed}`;
+  const slashed = pathname === '/' ? '/' : `${pathname.replace(/\/+$/, '')}/`;
+  if (locale === defaultLocale) return slashed + suffix;
+  if (pathname === '/') return `/${locale}/` + suffix;
+  return `/${locale}${slashed}` + suffix;
 }
 
 /**

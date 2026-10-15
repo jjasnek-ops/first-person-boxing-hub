@@ -1,0 +1,43 @@
+import fs from 'node:fs';
+const file='src/locales/en.json';
+const ui=JSON.parse(fs.readFileSync(file,'utf8'));
+ui.site.name='First Person Boxing Hub';
+ui.site.shortName='FPB Hub';
+ui.overview.guides={overviewTitle:'First Person Boxing Guides',overviewDescription:'Start with the beginner guide, understand the official combat mechanics, check mobile support and verify code claims for the Roblox game by Can You Box?.'};
+ui.shared.defaultListDescription='Browse source-checked guides, practical learning plans and platform notes for First Person Boxing on Roblox.';
+ui.shared.gameVersion='Checked';
+ui.shared.codesFaq=[{question:'Are there verified codes?',answer:'We have not verified a working code or a redemption interface. See the code-status guide for the evidence scope and date.'}];
+ui.home={
+  meta:{title:'First Person Boxing Wiki & Beginner Guides | FPB Hub',description:'Learn First Person Boxing on Roblox with source-checked beginner and combat guides, mobile support notes and honest code-status checks.'},
+  hero:{badge:'ROBLOX / UNOFFICIAL FIELD GUIDE',title:'First Person Boxing Wiki',description:'Read the ring. Build your fundamentals. A focused guide to guards, slips, counters and stamina in the Roblox game by Can You Box?.',ctaPrimary:'Play on Roblox',ctaSecondary:'Explore the guides',videoId:'',image:'/images/arena.svg',imageAlt:'Original illustration of a boxing ring with red and blue corners; not a gameplay screenshot.',note:'PC · Mobile · Console — listed by the developer',verified:'Sources checked 15 October 2026'},
+  start:{badge:'YOUR FIRST ROUND',title:'Find your next move',cards:[
+    {number:'01',title:'Start boxing',description:'A simple practice plan for your first session.',icon:'lucide:flag',href:'/guides/beginner-guide/'},
+    {number:'02',title:'Understand combat',description:'Guards, slips, counters and stamina explained.',icon:'lucide:shield',href:'/guides/combat/'},
+    {number:'03',title:'Play on mobile',description:'Official support, safe setup and troubleshooting.',icon:'lucide:smartphone',href:'/guides/mobile/'},
+    {number:'04',title:'Check code claims',description:'What we could verify, without made-up rewards.',icon:'lucide:search-check',href:'/guides/codes/'}]},
+  updates:{title:'The guidebook'},
+  popular:{badge:'START HERE',title:'Ring-side reference',quickLinks:[{label:'Your first practice session',href:'/guides/beginner-guide/'},{label:'Why stamina matters',href:'/guides/combat/#how-should-you-manage-stamina/'},{label:'Android and iPhone setup',href:'/guides/mobile/'},{label:'How we verify information',href:'/about/'}]},
+  explore:{title:'Know what you are practicing',description:'The developer confirms the mechanics. Our drills show a way to learn them; they are editorial suggestions, not hidden game rules.',modules:[
+    {order:1,name:'Build a reliable foundation',description:'Start with one skill at a time in AI practice, which the developer lists as an available mode.',href:'/guides/beginner-guide/',displayType:'steps',highlights:[{label:'01',detail:'Identify your current input prompts',badge:'Setup'},{label:'02',detail:'Practice head and body defense separately',badge:'Defense'},{label:'03',detail:'Watch stamina while you attack and reset',badge:'Pacing'}]},
+    {order:2,name:'Four ideas for every round',description:'A quick route through the officially described combat systems.',href:'/guides/combat/',displayType:'labeled-cards',highlights:[{label:'Guard',detail:'Protect head and body'},{label:'Slip',detail:'Learn defensive movement'},{label:'Counter',detail:'Recognize an opening'},{label:'Stamina',detail:'Tiredness slows you down'}]}
+  ]},
+  faq:{title:'First Person Boxing FAQ',description:'Quick answers from the official Roblox listing, checked 15 October 2026.',items:[
+    {question:'What is First Person Boxing?',answer:'It is a Roblox boxing experience by Can You Box? with a first-person view, player fights, AI practice, different guards, slips, counters and stamina management.'},
+    {question:'Does it support mobile and console?',answer:'The official description lists PC, Mobile and Console. This does not confirm every device or controller model; check whether the official Roblox listing lets you join on your device.'},
+    {question:'Can I practice against AI?',answer:'Yes. The developer explicitly lists AI practice as well as fighting other players. We have not verified the current menu path or difficulty settings.'},
+    {question:'Are there working codes?',answer:'No working code has been verified by this site as of 15 October 2026. The reviewed official description does not document a redemption system; that alone does not prove no system exists.'},
+    {question:'Where is the exact controls table?',answer:'Specific keyboard bindings and touch-button positions are still being verified. We will publish a controls reference when there is reliable game-specific evidence.'}
+  ]},
+  closingCta:{title:'Take it one round at a time.',description:'Use AI practice to learn a single mechanic, then bring it into your next player match.',primary:'Play First Person Boxing',secondary:'Read the beginner guide'}
+};
+// Keep all page links normalized; hash links must not acquire a trailing slash.
+ui.home.popular.quickLinks[1].href='/guides/combat/#how-should-you-manage-stamina';
+ui.footer.copyrightText='© 2026 First Person Boxing Hub. Unofficial fan-made guide.';
+ui.footer.community='Game & resources';
+fs.writeFileSync(file,JSON.stringify(ui,null,2)+'\n');
+let site=fs.readFileSync('src/config/site.ts','utf8').replace("name: 'First Person Boxing Wiki'","name: 'First Person Boxing Hub'");
+fs.writeFileSync('src/config/site.ts',site);
+let wrangler=fs.readFileSync('wrangler.toml','utf8').replace(/^name = .+$/m,'name = "first-person-boxing-hub"');
+fs.writeFileSync('wrangler.toml',wrangler);
+let manifest=JSON.parse(fs.readFileSync('public/manifest.json','utf8'));manifest.name='First Person Boxing Hub';manifest.short_name='FPB Hub';fs.writeFileSync('public/manifest.json',JSON.stringify(manifest,null,2)+'\n');
+console.log('Configured First Person Boxing Hub; English only; no unverified game mechanics added.');

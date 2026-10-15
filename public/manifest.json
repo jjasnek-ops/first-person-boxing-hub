@@ -1,11 +1,11 @@
 {
-  "name": "Anvil Quest Wiki",
-  "short_name": "AQ Wiki",
-  "description": "Complete Anvil Quest wiki with boss guides, codes, and tier lists.",
+  "name": "First Person Boxing Hub",
+  "short_name": "FPB Hub",
+  "description": "Source-checked First Person Boxing guides for Roblox: beginner practice, combat fundamentals, platform support and code verification.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#f36716",
+  "theme_color": "#ef4343",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

@@ -1,0 +1,21 @@
+{
+  "id": "9dbffe52d7e7e32ece67f39da8857701",
+  "name": "firstpersonboxinghub.wiki",
+  "status": "pending",
+  "name_servers": [
+    "armfazh.ns.cloudflare.com",
+    "laura.ns.cloudflare.com"
+  ],
+  "plan": {
+    "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "name": "Free Website",
+    "price": 0,
+    "currency": "USD",
+    "frequency": "",
+    "is_subscribed": false,
+    "can_subscribe": false,
+    "legacy_id": "free",
+    "legacy_discount": false,
+    "externally_managed": false
+  }
+}

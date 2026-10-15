@@ -46,7 +46,10 @@ pnpm-debug.log*
 seo-reports/
 
 # daily ops reports (local automation, never committed)
-reports/
+# Sanitized launch reports are tracked; raw build logs stay local.
+reports/*.log
+# Source HTML is retained locally for research, not republished in this public repository.
+research/raw/*.html
 
 # local tool output (review reports etc.)
 out/
